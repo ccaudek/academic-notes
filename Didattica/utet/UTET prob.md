@@ -1,8 +1,8 @@
 # Capitoli rivisti con chatGPT
 
-- [x] introduction_probability.qmd 2026-01-03
+- [ ] introduction_probability.qmd 
 - [x] 01_intro_prob_bayesian.qmd 2026-01-03
-- [ ] 02_axioms_coherence_bayesian.qmd 
+- [x] 02_axioms_coherence_bayesian.qmd 2026-01-03
 - [ ] 03_equiprobability_combinatorics_bayesian.qmd 
 - [ ] 04_conditional_prob_bayesian.qmd
 - [ ] 05_bayes_theorem.qmd
