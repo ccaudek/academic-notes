@@ -8,10 +8,9 @@ tags:
   - cmdstan
   - R
 ---
+To prevent printing the output messages during sampling in a Quarto book, use `silent = 0` :
 
-To avoid printing the output messages in a Quarto book:
-
-```text
+```r
 #| message: false
 #| warning: false
 #| output: false

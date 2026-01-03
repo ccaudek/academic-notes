@@ -1,11 +1,11 @@
 ---
-type: Zettel
-title: 'Makefile: Versione estesa'
-description: null
+title: "Makefile: Versione estesa"
 modificationDate: 2025-08-20 07:04
-tags: [coding, R]
-coverImage: null
+tags:
+  - coding
+  - R
 ---
+## Template
 
 Qui sotto trovi una **versione estesa** del Makefile descitto in [R Project Managment](./R%20Project%20Managment.md) Makefile. In questa versione, il Makefile resta essenziale ma integra alcune idee “scalabili” (pattern/variabili, directory “order-only”, parametri per Quarto, help, clean/diagnostica). È pronta da incollare:
 
@@ -102,7 +102,6 @@ Passi parametri con `QFLAGS`, es.:
 Se hai passi indipendenti, basta `make -j4`. Qui la pipeline è seriale (dipendenze in cascata), ma in progetti più grandi la parallelizzazione viene “gratis”.
 
 ---
-
 ### Estendere senza fatica
 
 - **Aggiungere un secondo modello** (stesso schema):
@@ -138,7 +137,6 @@ Dentro R leggi variabili d’ambiente impostate da Make:
     (Dentro gli script usa `Sys.getenv("SUBJECT")` per filtrare i dati o scegliere il file di output.)
 
 ---
-
 ### Nota su “pattern rules”
 
 In questo Makefile le regole sono **esplicite** (leggibili). Se il progetto cresce (molti script che seguono la stessa convenzione), puoi introdurre **pattern rules** per ridurre il boilerplate, ad es.:
@@ -149,20 +147,3 @@ In questo Makefile le regole sono **esplicite** (leggibili). Se il progetto cres
 $(DATA_DIR)/%.rds: $(SCRIPTS)/00_%.R $(RAW_CSV) | dirs
 	$(RSCRIPT) $(RFLAGS) $<
 ```
-
----
-
-Se vuoi, posso anche fornirti una **scaffold** di progetto con:
-
-```text
-data/raw.csv
-scripts/01_clean.R
-scripts/10_fit_model1.R
-scripts/20_plot_acc.R
-stan/model1.stan
-report.qmd
-Makefile
-```
-
-- minimi contenuti negli script (stub) e un `report.qmd` parametrizzabile, così puoi provarlo al volo.
-

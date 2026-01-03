@@ -1,10 +1,9 @@
 ---
-type: Zettel
 title: Canonicalizer
-description: null
+description:
 modificationDate: 2024-11-08 11:56
 tags: []
-coverImage: null
+coverImage:
 ---
 
 # Autoformat Stan format
