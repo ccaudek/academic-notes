@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Cupertino",
+  "cssTheme": "Baseline",
   "accentColor": "",
   "theme": "moonstone",
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "monospaceFontFamily": "SF Mono,MonoLisa"
+  "monospaceFontFamily": ""
 }

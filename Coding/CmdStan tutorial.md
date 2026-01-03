@@ -1,16 +1,13 @@
 ---
-title: CmdStan tutorial
 modificationDate: 2024-11-14 22:40
 tags:
   - cmdstan
 ---
-
 ## Stan Syntax
 
 A Stan program is usually saved as a `.stan` file and accessed through R (or other interfaces) and it is organized into a sequence of optional and obligatory blocks, which must be written in order.
 
 - Every statement ends in a semi-colon, `;`.
-
 - Blocks (`{}`) do not end in semi-colons.
 
 > [!tip]
@@ -19,7 +16,6 @@ The package `rstan` provides the function `lookup()` to look up for translat
 *Example:* `lookup(plogis)`
 
 Every variable needs to be declared at the beginning of a block with its type (real, integer, vector, matrix, etc.).
-
 ## Normal Likelihood
 
 ### Model definition
