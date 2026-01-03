@@ -45,13 +45,9 @@ Obiettivo: spiegare il ruolo e la struttura dell’Introduzione secondo il model
 **Istruzioni per gli studenti:**
 
 - Leggete l’introduzione in gruppo (3-4 persone).
-
 - Sottolineate con colori diversi i tre componenti:
-
     - Giallo = definizione del territorio
-
     - Verde = identificazione della nicchia
-
     - Blu = occupazione della nicchia
 
 - Discutete: quali frasi vi sembrano ambigue? Dove l’autore è particolarmente efficace?
@@ -67,13 +63,9 @@ Obiettivo: spiegare il ruolo e la struttura dell’Introduzione secondo il model
 **Materiale fornito:**
 
 - Titolo fittizio di uno studio (puoi sceglierne 3-4 per diversificare).
-
 - Informazioni essenziali:
-
     - ambito (es. regolazione emotiva, apprendimento, benessere)
-
     - ipotesi e motivazione dello studio
-
     - metodo di base e principali risultati
 
 **Esempio di prompt:**
