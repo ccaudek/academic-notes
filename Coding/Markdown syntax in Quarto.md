@@ -1,7 +1,7 @@
 ---
 title: Markdown syntax in Quarto
 description: Tips to use Markdown in Quarto notebooks
-modificationDate: 2025-12-11 16:59
+modificationDate: 2025-12-11
 tags:
   - quarto
   - teaching
