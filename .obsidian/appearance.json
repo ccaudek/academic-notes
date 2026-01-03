@@ -2,7 +2,7 @@
   "cssTheme": "Cupertino",
   "accentColor": "",
   "theme": "moonstone",
-  "interfaceFontFamily": "Helvetica Now Text",
-  "textFontFamily": "Helvetica Now Text",
-  "monospaceFontFamily": "MonoLisa"
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "SF Mono,MonoLisa"
 }
