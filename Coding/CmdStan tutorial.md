@@ -20,7 +20,7 @@ Every variable needs to be declared at the beginning of a block with its type (r
 
 ### Model definition
 
-```text
+```r
 stan_code <- "
 data {
   int<lower = 1> N;  // Total number of trials

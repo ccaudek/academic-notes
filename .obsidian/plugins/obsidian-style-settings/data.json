@@ -19,5 +19,6 @@
   "baseline-style@@callouts-style": "callouts-tactile",
   "baseline-style@@header-height": "56px",
   "baseline-style@@code-style": "code-tactile",
-  "baseline-style@@checkbox-radius": "100px"
+  "baseline-style@@checkbox-radius": "100px",
+  "baseline-style@@input-style": "input-cupertino"
 }
