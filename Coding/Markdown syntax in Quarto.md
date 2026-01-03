@@ -6,7 +6,6 @@ tags:
   - quarto
   - teaching
   - l24
-type: Zettel
 ---
 # Callout Blocks
 
