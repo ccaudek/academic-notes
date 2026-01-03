@@ -1,11 +1,11 @@
 ---
-type: Zettel
 title: Comprimere e convertire .mov
-description: null
+description:
 modificationDate: 2025-09-23 16:49
-tags: []
-coverImage: null
+tags:
+  - code
 ---
+# File QuickTime
 
 Con i file `.mov` di QuickTime ci sono alcune strade efficaci:
 
