@@ -1,11 +1,10 @@
 ---
-title: Canonicalizer
-description:
+description: Autoformat Stan format
 modificationDate: 2024-11-08 11:56
-tags: []
-coverImage:
+tags:
+  - code
+  - cmdstan
 ---
-
 # Autoformat Stan format
 
 Web page for formatting Stan code automatically:
