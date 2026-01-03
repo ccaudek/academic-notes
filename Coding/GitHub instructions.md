@@ -1,10 +1,9 @@
 ---
-type: Zettel
 title: GitHub instructions
-description: null
+description:
 modificationDate: 2024-11-14 22:41
-tags: [github]
-coverImage: null
+tags:
+  - github
 ---
 
 ## Access to GitHub
@@ -17,7 +16,7 @@ When Git prompts you for your password, **enter your personal access token (PAT)
 > [!info] Instructions for creating a PAT are [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 After creating a [fine-grained personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token), you can use it instead of a password.
 
-> [!tip]
+> [!warning]
 Remember to change the `User permissions` and the `Repository permissions` of the PAT, otherwise it will not work!!
 
 ## To speed up the connection

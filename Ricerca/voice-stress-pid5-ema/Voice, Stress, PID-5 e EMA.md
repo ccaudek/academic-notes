@@ -31,6 +31,5 @@ modificationDate: 2026-01-01
 
 
 > [!tip] TODO
-> Create: 
-> - **Supplementary Materials** file
+> Create **Supplementary Materials**
 

@@ -1,10 +1,9 @@
 ---
-type: Zettel
 title: Git conflicts
-description: null
+description:
 modificationDate: 2024-11-08 10:29
-tags: []
-coverImage: null
+tags:
+  - git
 ---
 
 ---
