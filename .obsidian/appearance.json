@@ -1,4 +1,8 @@
 {
-  "cssTheme": "Baseline",
-  "accentColor": ""
+  "cssTheme": "Cupertino",
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "Helvetica Now Text",
+  "textFontFamily": "Helvetica Now Text",
+  "monospaceFontFamily": "MonoLisa"
 }

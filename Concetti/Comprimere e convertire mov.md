@@ -1,7 +1,7 @@
 ---
 title: Comprimere e convertire .mov
-description:
-modificationDate: 2025-09-23 16:49
+description: Inserire video nel sito Quarto.
+modificationDate: 2025-09-23
 tags:
   - code
   - teaching
@@ -25,10 +25,8 @@ Con i file `.mov` di QuickTime ci sono alcune strade efficaci:
 - Scegli il preset **“Fast 1080p30”**.
 - Imposta formato di output **.mp4**.
 - Puoi regolare:
-
     - **Constant Quality**: un valore tra 20–23 è un buon compromesso (più basso = più qualità, ma file più pesante).
     - **Web Optimized** (se devi caricarlo online).
-
 - Risultato: file molto più leggero, con perdita di qualità minima.
 
 ---
@@ -48,7 +46,6 @@ ffmpeg -i input.mov -vcodec libx264 -crf 23 -preset veryslow -acodec aac output.
 ## 💡 Consiglio pratico
 
 - Se vuoi una **soluzione rapida e zero smanettamenti** → usa **HandBrake**.
-
 - Se sei a tuo agio con il Terminale → usa **ffmpeg** con `-crf 23` e `-preset slow`: ottieni file piccoli e qualità ottima.
 
 ---
@@ -69,11 +66,8 @@ ffmpeg -i input.mov \
 **Perché funziona bene per screencast**
 
 - `-crf 20` = ottimo compromesso qualità/peso (più alto = più leggero, p.es. 22–24).
-
 - `-preset slow` = comprime meglio a parità di qualità (puoi usare `medium` se hai fretta).
-
 - `-r 30` = frame rate standard per slide/screencast.
-
 - `-pix_fmt yuv420p` + `-movflags +faststart` = massima compatibilità (web, player).
 
 ---
@@ -91,7 +85,6 @@ ffmpeg -i input.mov \
 **Note**
 
 - `scale=-2:1080:flags=lanczos` = downscale nitido mantenendo proporzioni; `-2` forza larghezza compatibile (multiplo di 2).
-
 - `-crf 22` è un filo più compresso (puoi scendere a 20 se il testo ti sembra un po’ “morbido”).
 
 ---
@@ -99,10 +92,8 @@ ffmpeg -i input.mov \
 
 - **Testa prima 30–60 secondi**:
 aggiungi `-t 60` e valuta peso/qualità prima di processare tutto.
-
 - **Molto testo fine?** Usa `-crf 18–20`.
 **Più leggerezza?** prova `-crf 23–24`.
-
 - **Slide quasi statiche?** puoi aggiungere `-tune stillimage` per comprimere meglio (se il video è davvero poco dinamico):
 
     ```bash

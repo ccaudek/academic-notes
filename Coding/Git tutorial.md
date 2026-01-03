@@ -1,13 +1,11 @@
 ---
-modificationDate: 2024-11-09 14:44
+modificationDate: 2024-11-09
 tags:
   - git
 ---
-
 ## Git workflow
 
 - **Step 1:** create an empty GitHub repository (for example `my_project`).
-
 - **Step 2:** clone locally the Github repository in the appropriate directory.
 
     ```bash
