@@ -16,3 +16,5 @@
 - [x] 13_cont_rv_distr.qmd 2026-01-04
 - [x] 14_likelihood.qmd 2026-01-04
 - [x] 15_properties_likelihood.qmd 2026-01-04
+
+- [ ] Rivista la ripetizione delle proprietà della media campionaria nei capitoli 08 e 09.
