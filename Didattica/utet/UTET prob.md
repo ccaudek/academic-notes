@@ -14,5 +14,5 @@
 - [x] 11_intro_distributions.qmd 2026-01-04
 - [x] 12_discr_rv_distr.qmd 2026-01-04
 - [x] 13_cont_rv_distr.qmd 2026-01-04
-- [ ] 14_likelihood.qmd        
+- [x] 14_likelihood.qmd 2026-01-04
 - [ ] 15_properties_likelihood.qmd
