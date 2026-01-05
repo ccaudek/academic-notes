@@ -1,10 +1,11 @@
 
+```r
 # ESEMPI PRATICI - Nuove funzionalità grafiche
+# Da usare nei capitoli dopo aver caricato _common.R
 
-Da usare nei capitoli dopo aver caricato _common.R
-
-## 1. PALETTE QUALITATIVA per categorie multiple
-
+# ============================================================================
+# 1. PALETTE QUALITATIVA per categorie multiple
+# ============================================================================
 
 ## PRIMA (tutti grigi, confuso)
 library(ggplot2)
@@ -269,3 +270,4 @@ ggplot(dati_facet, aes(x = trattamento, y = riduzione, fill = trattamento)) +
 ## 4. Usa geom_*_primary() per annotazioni importanti
 ## 5. Cache i chunk pesanti con #| cache: true
 ## 6. Aggiungi sempre fig-cap e fig-alt per accessibilità
+```
