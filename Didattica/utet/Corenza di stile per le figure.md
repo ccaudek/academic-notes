@@ -271,3 +271,239 @@ ggplot(dati_facet, aes(x = trattamento, y = riduzione, fill = trattamento)) +
 ## 5. Cache i chunk pesanti con #| cache: true
 ## 6. Aggiungi sempre fig-cap e fig-alt per accessibilità
 ```
+
+## Opzioni comuni
+
+```yaml
+# Template per grafici 2x2 
+#| fig-width: 8 
+#| fig-height: 8 #| out-width: "95%"
+
+# Template per grafici con molti facet 
+#| fig-width: 10 
+#| fig-height: 10 
+#| out-width: "100%" #| dpi: 200
+
+# Template per grafici larghi (timeline, etc) 
+#| fig-width: 10 
+#| fig-height: 4 
+#| out-width: "100%"
+
+# Template per grafici alti (forest plot, etc) 
+#| fig-width: 6 
+#| fig-height: 10 
+#| out-width: "80%"
+```
+
+Il problema è che il grafico 2x2 con `coord_fixed()` necessita di più spazio verticale, ma il default `fig.asp = 0.618` (golden ratio) è ottimizzato per grafici singoli orizzontali.
+
+## 🔧 Soluzione immediata
+
+Aggiungi chunk options specifiche per questo grafico:
+
+```r
+#| echo: false
+#| fig-width: 8
+#| fig-height: 8
+#| out-width: "100%"
+
+set.seed(42)
+n_points <- 100
+s1 <- data.frame(
+  x = rnorm(n_points, mean = 0, sd = 0.3),
+  y = rnorm(n_points, mean = 0, sd = 0.3),
+  scenario = "Alta precisione,\nalta accuratezza"
+)
+# ... resto del codice uguale ...
+
+ggplot(all_scenarios, aes(x = x, y = y)) +
+  geom_point(alpha = 0.6, size = 2) +  # ← aggiunto alpha e size
+  geom_point(aes(x = 0, y = 0),
+             color = PRIMARY,  # ← usa PRIMARY invece di default
+             size = 5,
+             shape = 4,
+             stroke = 2) +
+  facet_wrap(~ scenario, ncol = 2) +
+  coord_fixed() +
+  labs(
+    title = "Precisione e accuratezza nell'inferenza statistica",
+    subtitle = "La croce indica il valore parametrico vero",
+    x = "",
+    y = ""
+  ) +
+  theme(
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    strip.text = element_text(face = "bold", size = rel(1.1))
+  )
+```
+
+**Spiegazione delle modifiche**:
+
+- `fig-width: 8` e `fig-height: 8` → grafico quadrato più grande
+- `out-width: "100%"` → usa tutta la larghezza disponibile (invece del default 85%)
+- `alpha = 0.6` sui punti → migliora leggibilità
+- `color = PRIMARY` sulla croce → usa il colore primario definito in _common.R
+- Rimosso `scale_fill_qualitative()` → non serve, non usi fill
+
+## 📊 Alternative per diversi tipi di facet
+
+### Per grafici 2x2 (come il tuo):
+
+```r
+#| fig-width: 8
+#| fig-height: 8
+#| out-width: "95%"
+```
+
+### Per grafici 2x1 (verticali):
+
+```r
+#| fig-width: 7
+#| fig-height: 10
+#| out-width: "85%"
+```
+
+### Per grafici 3x2 o 4x2:
+
+```r
+#| fig-width: 9
+#| fig-height: 12
+#| out-width: "100%"
+```
+
+### Per grafici con molti facet (es. 3x3):
+
+```r
+#| fig-width: 10
+#| fig-height: 10
+#| out-width: "100%"
+#| dpi: 200  # ← aumenta risoluzione per questo grafico
+```
+
+## 🎯 Versione ottimizzata del tuo grafico
+
+Ecco una versione migliorata con tutti gli accorgimenti:
+
+```r
+#| echo: false
+#| fig-width: 8
+#| fig-height: 8
+#| out-width: "95%"
+#| fig-cap: "Illustrazione dei concetti di precisione (dispersione) e accuratezza (vicinanza al valore vero)"
+
+set.seed(42)
+n_points <- 100
+
+# Genera dati per i 4 scenari
+scenarios_data <- bind_rows(
+  tibble(
+    x = rnorm(n_points, mean = 0, sd = 0.3),
+    y = rnorm(n_points, mean = 0, sd = 0.3),
+    scenario = "Alta precisione,\nalta accuratezza"
+  ),
+  tibble(
+    x = rnorm(n_points, mean = 2, sd = 0.3),
+    y = rnorm(n_points, mean = 2, sd = 0.3),
+    scenario = "Alta precisione,\nbassa accuratezza"
+  ),
+  tibble(
+    x = rnorm(n_points, mean = 0, sd = 1),
+    y = rnorm(n_points, mean = 0, sd = 1),
+    scenario = "Bassa precisione,\nalta accuratezza"
+  ),
+  tibble(
+    x = rnorm(n_points, mean = 2, sd = 1),
+    y = rnorm(n_points, mean = 2, sd = 1),
+    scenario = "Bassa precisione,\nbassa accuratezza"
+  )
+)
+
+ggplot(scenarios_data, aes(x = x, y = y)) +
+  # Punti delle osservazioni
+  geom_point(
+    color = modern_palette$grey3,
+    alpha = 0.5,
+    size = 2
+  ) +
+  # Croce rossa per il valore vero
+  geom_point(
+    aes(x = 0, y = 0),
+    color = modern_palette$red,  # O usa PRIMARY se preferisci
+    size = 6,
+    shape = 4,
+    stroke = 2.5
+  ) +
+  # Facet
+  facet_wrap(~ scenario, ncol = 2) +
+  coord_fixed(xlim = c(-3, 3), ylim = c(-3, 3)) +  # ← limiti espliciti
+  # Labels
+  labs(
+    title = "Precisione e accuratezza nell'inferenza statistica",
+    subtitle = "La croce rossa indica il valore parametrico vero",
+    x = NULL,
+    y = NULL
+  ) +
+  # Theme
+  theme(
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    strip.text = element_text(face = "bold", size = rel(1.1)),
+    panel.border = element_rect(fill = NA, color = modern_palette$border)
+  )
+```
+
+**Miglioramenti aggiuntivi**:
+
+- Usa `bind_rows()` invece di `rbind()` (più tidyverse)
+- Colori espliciti da `modern_palette` (consistenza)
+- Limiti espliciti in `coord_fixed()` (evita tagli)
+- `panel.border` per delimitare meglio i pannelli
+- `fig-cap` per accessibilità
+
+## 💡 Helper per chunk options comuni
+
+Puoi creare un file `_chunk_templates.txt` nella root del progetto con template riusabili:
+
+```yaml
+# Template per grafici 2x2
+#| fig-width: 8
+#| fig-height: 8
+#| out-width: "95%"
+
+# Template per grafici con molti facet
+#| fig-width: 10
+#| fig-height: 10
+#| out-width: "100%"
+#| dpi: 200
+
+# Template per grafici larghi (timeline, etc)
+#| fig-width: 10
+#| fig-height: 4
+#| out-width: "100%"
+
+# Template per grafici alti (forest plot, etc)
+#| fig-width: 6
+#| fig-height: 10
+#| out-width: "80%"
+```
+
+Così puoi copiare-incollare rapidamente le opzioni giuste.
+
+## 🎯 Regola generale
+
+Per grafici con facet:
+
+- **Aspect ratio effettivo** = `(fig-height / fig-width) * ncol / nrow`
+- Per avere pannelli quadrati con `coord_fixed()`:
+    - `fig-width = fig-height` se `ncol = nrow` (2x2, 3x3)
+    - `fig-height = fig-width * (nrow/ncol)` altrimenti
+
+**Esempi**:
+
+- 2x2 → `fig-width: 8, fig-height: 8`
+- 3x2 → `fig-width: 8, fig-height: 12`
+- 2x3 → `fig-width: 12, fig-height: 8`
+- 4x1 → `fig-width: 8, fig-height: 16`
+
+Prova con le prime opzioni che ti ho dato e fammi sapere se ora il grafico ha le dimensioni giuste!
