@@ -1,10 +1,10 @@
 ---
-type: Zettel
 title: Domande per Moodle Quiz
-description: null
+description:
 modificationDate: 2025-06-14 07:50
-tags: [teaching, moodle]
-coverImage: null
+tags:
+  - teaching
+  - moodle
 ---
 
 ## Prompt GPT
