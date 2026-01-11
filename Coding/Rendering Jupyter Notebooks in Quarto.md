@@ -1,10 +1,10 @@
 ---
-type: Zettel
 title: Rendering Jupyter Notebooks in Quarto
-description: null
 modificationDate: 2025-12-11 16:59
-tags: [teaching, JupyterNotebook, quarto]
-coverImage: null
+tags:
+  - teaching
+  - JupyterNotebook
+  - quarto
 ---
 
 ## Compilare il sito web localmente

@@ -1,10 +1,8 @@
 ---
-type: Zettel
 title: Consuetudini tipografiche e notazionali per il manuale UTET
-description: null
 modificationDate: 2025-12-03 07:40
-tags: []
-coverImage: null
+tags:
+  - UTET
 ---
 
 ## Punti chiave da ricordare {.unnumbered}
