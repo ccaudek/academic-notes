@@ -70,8 +70,8 @@
   "baseline-style@@tag-background@@light": "#FFFFFF00",
   "baseline-style@@checkbox-radius": "100px",
   "cupertino@@liquid-glass-off": false,
-  "cupertino@@center-tabs-off": false,
-  "cupertino@@active-line-off": false,
+  "cupertino@@center-tabs-off": true,
+  "cupertino@@active-line-off": true,
   "cupertino@@liquid-glass-tint-off": false,
   "cupertino@@mode-switcher-off": false,
   "baseline-style@@colorful-frame": false,
@@ -110,5 +110,6 @@
   "baseline-style@@table-text-align-body": "start",
   "baseline-style@@table-text-align-header": "start",
   "baseline-style@@bold-modifier": 600,
-  "baseline-style@@element-style": "input-cupertino"
+  "baseline-style@@element-style": "input-cupertino",
+  "cupertino@@compact-status-bar-off": true
 }
