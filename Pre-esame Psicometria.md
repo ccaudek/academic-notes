@@ -156,8 +156,7 @@ E) La MAD è una misura di dispersione utilizzabile solo per scale ordinali
 
 ### Quesito 5 – Probabilità di base (legge della probabilità totale)
 
-Un evento $A$ ha probabilità $P(A)=0.3$.  
-Un evento $B$ è tale che:  
+Un evento $A$ ha probabilità $P(A)=0.3$.  Un evento $B$ è tale che:  
 $$ 
 P(B \mid A)=0.4, \qquad P(B \mid A^c)=0.2.  
 $$
@@ -190,19 +189,15 @@ P(B)=0.4\cdot 0.3 + 0.2\cdot 0.7
 = 0.26.  
 $$
 
-Ecco un esercizio **pulito, tipico per psicologia**, perfettamente adatto a **Moodle + svolgimento cartaceo**, sul **valore atteso di una variabile aleatoria discreta**.
-
----
-
 ### Quesito 6 – Valore atteso di una variabile aleatoria discreta
 
-Il punteggio (X) ottenuto da un soggetto a un breve test di attenzione può assumere i seguenti valori:
+Il punteggio $X£ ottenuto da un soggetto a un breve test di attenzione può assumere i seguenti valori:
 
-|(x)|0|1|2|
-|---|---|---|---|
-|(P(X=x))|0.2|0.5|0.3|
+| $x$      | 0   | 1   | 2   |
+| -------- | --- | --- | --- |
+| $P(X=x)$ | 0.2 | 0.5 | 0.3 |
 
-Calcolare il **valore atteso** di (X).
+Calcolare il **valore atteso** di $X$.
 
 A) 0.9  
 B) 1.0  
@@ -241,11 +236,9 @@ E) 4
 
 ✅ Risposta corretta: **B**
 
----
+## Quesito 8 – Teorema Centrale del Limite 
 
-### Quesito 8 – Teorema Centrale del Limite
-
-Sia (\bar X) la media campionaria del quesito precedente.  
+Sia (\bar X) la media campionaria del quesito precedente, con (\mu=10), (\sigma=2), (n=16).  
 Calcolare (P(\bar X > 10.5)) usando l’approssimazione normale.
 
 A) 0.1587  
@@ -256,23 +249,57 @@ E) 0.8413
 
 ✅ Risposta corretta: **A**
 
+### Svolgimento (minimo accettabile)
+
+Per il TC (o per normalità se assunta), la media campionaria è approssimativamente:  
+[  
+\bar X \sim N!\left(\mu,; \frac{\sigma}{\sqrt{n}}\right).  
+]  
+Calcolo della deviazione standard della media:  
+[  
+\sigma_{\bar X}=\frac{\sigma}{\sqrt{n}}=\frac{2}{\sqrt{16}}=\frac{2}{4}=0.5.  
+]  
+Standardizzo:  
+[  
+P(\bar X>10.5)=P!\left(\frac{\bar X-10}{0.5}>\frac{10.5-10}{0.5}\right)=P(Z>1).  
+]  
+Dalle tavole della normale:  
+[  
+P(Z>1)=1-\Phi(1)=1-0.8413=0.1587.  
+]
+
 ---
 
-### Quesito 9 – Uso delle tavole
+## Quesito 9 – Uso delle tavole (t di Student + svolgimento)
 
-Sia $Z \sim N(0,1)$.  Calcolare $P(Z < 1.28)$.
+Sia (T \sim t_{\nu}) con (\nu=10) gradi di libertà.  
+Calcolare (P(T < 1.812)) utilizzando le tavole della t di Student (valori critici).
 
-A) 0.8000  
-B) 0.8500  
-C) 0.8997  
-D) 0.9250  
-E) 0.9500
+A) 0.90  
+B) 0.925  
+C) 0.95  
+D) 0.975  
+E) 0.99
 
 ✅ Risposta corretta: **C**
 
+### Svolgimento (minimo accettabile)
+
+Dalle tavole della t di Student, per (\nu=10):
+
+- (t_{0.95,10} \approx 1.812), dove (t_{0.95,10}) è il quantile tale che (P(T < t_{0.95,10})=0.95).
+    
+
+Quindi:  
+[  
+P(T<1.812)=0.95.  
+]
+
+_(Nota: qui “uso delle tavole” significa riconoscere che 1.812 è un quantile tabulato.)_
+
 ---
 
-### Quesito 10 – Calcolo combinatorio
+## Quesito 10 – Calcolo combinatorio (con svolgimento)
 
 In quanti modi distinti si possono scegliere 2 elementi da un insieme di 6?
 
@@ -283,6 +310,18 @@ D) 30
 E) 36
 
 ✅ Risposta corretta: **B**
+
+### Svolgimento (minimo accettabile)
+
+Il numero di scelte senza ordine è una combinazione:  
+[  
+\binom{6}{2}=\frac{6!}{2!,4!}=\frac{6\cdot 5}{2\cdot 1}=15.  
+]
+
+---
+
+Se vuoi, posso anche proporti una variante del Q9 in cui lo studente **deve ricavare** il valore di (t) da una probabilità (es. “calcolare (P(T< t))” con (t) dato in tabella), oppure l’inverso (“trovare il quantile”), a seconda di come vuoi che usino le tavole.
+
 
 ## Nota sullo svolgimento
 
