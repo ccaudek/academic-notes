@@ -17,8 +17,8 @@ Il pre-esame verte sui seguenti argomenti:
 - sommatorie elementari;
 - statistica descrittiva (media, varianza, deviazione standard);
 - elementi di base di teoria della probabilità;
-- distribuzione campionaria della media, Teorema Centrale del Limite;
-- calcolo di probabilità mediante l’uso delle tavole della distribuzione normale;
+- distribuzione campionaria della media, legge della probabilità totale, regole della somma e del prodotti, Teorema del Limite Centrale;
+- calcolo di probabilità mediante l’uso delle tavole della distribuzione normale e della distribuzione t di Student;
 - regole elementari di calcolo combinatorio;
 - proprietà delle scale di misura.
 
@@ -107,92 +107,89 @@ E) Dopo la trasformazione non è più possibile calcolare la media dei punteggi
     
 👉 Non serve scrivere tutto: bastano 2–3 righe che mostrino che lo studente **sa cosa distingue una scala a intervalli**.
 
-Perfetto. Ti propongo **due quesiti distinti**, entrambi nel **formato identico** agli altri (5 alternative, 1 corretta), calibrati per:
-
-- corso triennale di psicologia;
-    
-- pre-esame selettivo ma oggettivo;
-    
-- uno **puramente computazionale**;
-    
-- uno di **interpretazione concettuale**, ma non opinabile.
-    
-
----
-
-## Quesito – Statistica descrittiva (calcolo della deviazione standard)
+## Quesito 3 – Statistica descrittiva (calcolo della deviazione standard)
 
 Un campione di punteggi a un test di attenzione è costituito dai valori:  
-[  
-X = {4,; 6,; 10}.  
-]
+$$
+X = {4,\; 6,\; 10}.  
+$$
 
 Calcolare la **deviazione standard campionaria** (con denominatore (n)).
 
 A) 2  
-B) (\sqrt{6})  
-C) (\sqrt{8})  
-D) (\sqrt{12})  
+B) $\sqrt{6}$ 
+C) $\sqrt{8}$ 
+D) $\sqrt{12}$  
 E) 4
 
 **Svolgimento atteso (minimo):**  
-(\bar X = \frac{4+6+10}{3} = \frac{20}{3});  
-[  
+$\bar X = \frac{4+6+10}{3} = \frac{20}{3}$;  
+$$ 
 \frac{1}{3}\left[(4-\bar X)^2+(6-\bar X)^2+(10-\bar X)^2\right]=\frac{24}{3}=8;  
 \quad \sigma=\sqrt{8}.  
-]
+$$
 
-✅ **Risposta corretta: C**
 
 ---
 
-## Quesito – Statistica descrittiva (interpretazione della deviazione standard)
+## Quesito 4 – Statistica descrittiva (SD, scarto tipico e MAD)
 
-Due gruppi di soggetti svolgono lo stesso test di memoria.  
-I due gruppi hanno **la stessa media**, ma il Gruppo A ha deviazione standard pari a 5, mentre il Gruppo B ha deviazione standard pari a 10.
+In un campione di punteggi a un test psicologico, la **deviazione standard** è pari a 8.  
+La **MAD** (deviazione assoluta mediana), calcolata sugli stessi dati, è pari a 6.
 
 Quale delle seguenti affermazioni è **corretta**?
 
-A) Il Gruppo B ha una media più elevata del Gruppo A  
-B) I punteggi del Gruppo A sono più dispersi rispetto a quelli del Gruppo B  
-C) I punteggi del Gruppo B sono più dispersi rispetto a quelli del Gruppo A  
-D) Nel Gruppo A i punteggi sono tutti uguali  
-E) Nel Gruppo B non è possibile calcolare la media
+A) La MAD fornisce una stima dello scarto tipico dei punteggi concettualmente diversa, ma coerente con ciò che rappresenta la deviazione standard  
+B) La MAD misura lo scarto medio dei punteggi dalla media ed è quindi equivalente alla deviazione standard  
+C) La differenza tra MAD e deviazione standard indica necessariamente la presenza di outlier estremi  
+D) La deviazione standard non può essere interpretata in termini di scarto tipico  
+E) La MAD è una misura di dispersione utilizzabile solo per scale ordinali
+
+✅ **Risposta corretta: A**
+
+### Svolgimento atteso (minimo accettabile)
+
+- la deviazione standard rappresenta uno **scarto tipico** rispetto alla media;
+- la MAD è una misura diversa (basata su scarti assoluti dalla mediana) ma fornisce una **descrizione intuitiva** della dispersione;
+- valori comparabili indicano coerenza nella descrizione della variabilità dei dati.
+    
+👉 È sufficiente che emerga l’idea: **misure diverse, stesso fenomeno descritto in modo compatibile**.
+
+## Quesito 5 – Probabilità di base (legge della probabilità totale)
+
+Un evento $A$ ha probabilità $P(A)=0.3$.  
+Un evento $B$ è tale che:  
+$$ 
+P(B \mid A)=0.4, \qquad P(B \mid A^c)=0.2.  
+$$
+
+Calcolare $P(B)$.
+
+A) 0.22  
+B) 0.24  
+C) 0.26  
+D) 0.28  
+E) 0.30
 
 ✅ **Risposta corretta: C**
 
----
+### Svolgimento (minimo accettabile)
 
-### Nota didattica (per te)
+Per la **legge della probabilità totale**:  
+$$
+P(B)=P(B \mid A)P(A)+P(B \mid A^c)P(A^c).  
+$$
 
-Questa coppia funziona molto bene perché:
-
-- il primo quesito seleziona chi **sa calcolare davvero**;
-    
-- il secondo elimina chi **ripete definizioni senza capirle**;
-    
-- nessuno dei due è attaccabile sul piano interpretativo.
-    
-
-Se vuoi, al prossimo passo posso:
-
-- riformulare il primo quesito con **frequenze** (ancora più psicologico),
-    
-- oppure preparare **distrattori Moodle ancora più “cattivi”** (errori tipici reali).
-
-### Quesito 5 – Probabilità di base
-
-Un evento $A$ ha probabilità $P(A)=0.3$.  Un evento $B$ è tale che $P(B\mid A)=0.5$ e $P(B\mid A^c)=0.2$.  Calcolare $P(B)$.
-
-A) 0.23  
-B) 0.26  
-C) 0.29  
-D) 0.32  
-E) 0.35
-
-✅ Risposta corretta: **B**
-
----
+Poiché:  
+$$ 
+P(A^c)=1-P(A)=0.7,  
+$$  
+si ottiene:  
+$$ 
+P(B)=0.4\cdot 0.3 + 0.2\cdot 0.7  
+= 0.12 + 0.14  
+= 0.26.  
+$$
 
 ### Quesito 6 – Probabilità condizionata
 
