@@ -1,19 +1,33 @@
 ---
 title: Domande per Moodle Quiz
-description:
 modificationDate: 2025-06-14 07:50
 tags:
   - teaching
   - moodle
 ---
-
 ## Prompt GPT
 
-Devo generare delle domande a scelta multipla, con 5 alternative, una sola corretta, da usare in Moodle. Voglio aggiungere il feedback complessivo, che verrà mostrato dopo che lo studente ha chiuso il test. La risposta corretta viene valutata con **+1** punto, qualsiasi risposta errata viene valutatra con **-0.25** punti, e la risposta non data viene valutata con **0** punti (valore di default quando lo studente non risponde). Inoltre, voglio fornire un feedback complessivo che verrà mostrato dopo la chiusura del Quiz. In tutta questa chat NON usare simboli diversi da quelli ASCII. Ti chiedo di crere un file **scaricabile**. Il file deve essere leggibile da Moodle in formato .gift. Un esempio della sintassi è mostrato qui sotto.
+Devo generare domande a scelta multipla da utilizzare in Moodle, nel formato GIFT (.gift).
+
+Requisiti delle domande:
+
+- Ogni domanda deve avere 5 alternative di risposta.
+- Deve esserci una sola risposta corretta.
+- La risposta corretta vale +1 punto.
+- Ogni risposta errata vale -0.25 punti.
+- La risposta non data vale 0 punti (valore di default in Moodle).
+    
+Per ogni domanda voglio includere un feedback complessivo, che verra' mostrato allo studente solo dopo la chiusura del quiz.
+
+In tutta questa chat NON devono essere usati simboli diversi da quelli ASCII.
+
+Devi creare un file scaricabile, leggibile da Moodle, nel formato .gift.
+
+Qui sotto e' riportato un esempio della sintassi GIFT da utilizzare.
 
 ```markdown
 ::Grid_BB_1::
-In uno studio sull'efficacia di un training cognitivo, prima dell'esperimento si assume che la probabilità di successo sia distribuita come Beta(2, 2). Dopo aver osservato 6 successi su 10 tentativi, qual è il valore a posteriori più probabile (MAP)?
+In uno studio sull'efficacia di un training cognitivo, prima dell'esperimento si assume che la probabilita' di successo sia distribuita come Beta(2, 2). Dopo aver osservato 6 successi su 10 tentativi, qual e' il valore a posteriori piu' probabile (MAP)?
 {
 =0.6361
 ~%-25%0.5000
@@ -28,30 +42,37 @@ likelihood <- dbinom(6, size=10, prob=p_grid)
 posterior <- prior * likelihood
 p_grid[which.max(posterior)]
 }
-
 ```
 
 ## Procedura
 
-Prima si genera un file .gift che contiene gli esercizi. Sopra c'è un esempio. Si deve specificare la penalizzazione per le risposte sbagliate, per esempio, ~%-25%0.8000. Il feedback, dopo i #### va inserito prima della chiusura della parentesi graffa.
+1. Si genera un file con estensione .gift che contiene tutte le domande.
+2. Per ogni risposta errata va specificata la penalizzazione, ad esempio:  
+    ~%-25%0.8000
+3. Il feedback complessivo deve essere inserito dopo la riga "#### FEEDBACK" e prima della chiusura della parentesi graffa }.
+4. 
+Il file .gift cosi' creato puo' essere importato in Moodle seguendo questi passaggi:
 
-Il file così creato può essere importato in Moodle. È necessario andare su Deposito delle domande. Da lì si sceglie la categoria genitore. Poi, si seleziona Domande/Categorie, per esempio. E da quella pagina si può generare una nuova categoria. La nuova categoria sarà figlia della categoria dalla quale si è scelto Domande/Categorie. A questo punto si può importare il file .gift.
+- Accedere al Deposito delle domande.
+- Selezionare la categoria genitore desiderata.
+- Andare su Domande / Categorie.
+- Creare una nuova categoria (che sara' figlia della categoria selezionata).
+- Importare il file .gift nella categoria appena creata.
 
-### Sintassi
+## Sintassi e note importanti
 
-**NB: Usare la penalizzazione di 0.25 per le risposte sbagliate**.
+**NB:** Usare sempre una penalizzazione di 0.25 per le risposte sbagliate.
+**NB:** Nella sintassi GIFT di Moodle si possono usare le lettere accentate italiane (è, ò, à, ì, ù).
 
-**NB:** nella sintassi GIFT di Moodle si possono usare **le lettere accentate italiane**, come è, ò, à, ì, ù**.**
+NB: Nel formato .gift utilizzato da Moodle non esiste un supporto nativo per la formattazione di blocchi di codice come in Markdown o HTML. Tuttavia, e' possibile includere codice R come semplice testo nel corpo della domanda o nel feedback, a condizione che:
 
-**NB:** Nel formato `.gift` utilizzato da Moodle, **non esiste un supporto nativo per la formattazione di blocchi di codice**, come quelli che normalmente useresti in Markdown (con triple backtick `````) o HTML. Tuttavia, puoi **includere codice R nel testo** come parte del corpo della domanda o del feedback, a condizione che:
+1. Si usino solo caratteri ASCII.
+2. Non si utilizzino backtick o sintassi Markdown.
+3. Il codice sia inserito come testo preformattato, ad esempio rientrato o delimitato con righe guida (come commenti o linee con ###).
 
-1. Usi solo **caratteri ASCII semplici**.
+NB: Se in una risposta compare il simbolo "=", questo deve essere preceduto dal carattere di escape "" (cioe' "\=").
 
-2. Non usi backtick o markdown.
-
-3. Il codice sia inserito come **testo preformattato**, magari rientrato o delimitato con righe guida (es. con commenti o linee `###`).
-
-**NB: se nella risposta di una domanda si usa il simbolo "=", va preceduto da "\", ovvero "\=".** Per esempio:
+Esempio:
 
 ```markdown
 ::DiffProp_Theo_01::
@@ -66,5 +87,4 @@ Qual e' l'ipotesi nulla per un test sulla differenza tra due proporzioni?
 L'ipotesi nulla piu' comune e' che le due proporzioni siano uguali, quindi p1 - p2 = 0.
 }
 ```
-
 
