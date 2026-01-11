@@ -1,8 +1,9 @@
 ---
-title: Consuetudini tipografiche e notazionali per il manuale UTET
 modificationDate: 2025-12-03 07:40
 tags:
   - UTET
+  - teaching
+  - quarto
 ---
 
 ## Punti chiave da ricordare {.unnumbered}
