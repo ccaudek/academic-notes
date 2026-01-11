@@ -61,8 +61,7 @@ Per ciascun quesito selezionare **una sola risposta**. Riportare sul foglio cart
 
 ### Quesito 1 – Sommatorie
 
-Sia $X = {2, -1, 5}$ un insieme di tre osservazioni.  
-Calcolare  
+Sia $X = {2, -1, 5}$ un insieme di tre osservazioni.  Calcolare  
 $$
 \sum_{i=1}^{3} (X_i - \bar X)^2,  
 $$
@@ -107,7 +106,7 @@ E) Dopo la trasformazione non è più possibile calcolare la media dei punteggi
     
 👉 Non serve scrivere tutto: bastano 2–3 righe che mostrino che lo studente **sa cosa distingue una scala a intervalli**.
 
-## Quesito 3 – Statistica descrittiva (calcolo della deviazione standard)
+### Quesito 3 – Statistica descrittiva (calcolo della deviazione standard)
 
 Un campione di punteggi a un test di attenzione è costituito dai valori:  
 $$
@@ -132,7 +131,7 @@ $$
 
 ---
 
-## Quesito 4 – Statistica descrittiva (SD, scarto tipico e MAD)
+### Quesito 4 – Statistica descrittiva (SD, scarto tipico e MAD)
 
 In un campione di punteggi a un test psicologico, la **deviazione standard** è pari a 8.  
 La **MAD** (deviazione assoluta mediana), calcolata sugli stessi dati, è pari a 6.
@@ -155,7 +154,7 @@ E) La MAD è una misura di dispersione utilizzabile solo per scale ordinali
     
 👉 È sufficiente che emerga l’idea: **misure diverse, stesso fenomeno descritto in modo compatibile**.
 
-## Quesito 5 – Probabilità di base (legge della probabilità totale)
+### Quesito 5 – Probabilità di base (legge della probabilità totale)
 
 Un evento $A$ ha probabilità $P(A)=0.3$.  
 Un evento $B$ è tale che:  
@@ -191,25 +190,48 @@ P(B)=0.4\cdot 0.3 + 0.2\cdot 0.7
 = 0.26.  
 $$
 
-### Quesito 6 – Probabilità condizionata
-
-Siano (A) e (B) due eventi con (P(A)=0.4), (P(B)=0.5) e (P(A\cap B)=0.2).  
-Calcolare (P(A\mid B)).
-
-A) 0.2  
-B) 0.4  
-C) 0.5  
-D) 0.6  
-E) 0.8
-
-✅ Risposta corretta: **B**
+Ecco un esercizio **pulito, tipico per psicologia**, perfettamente adatto a **Moodle + svolgimento cartaceo**, sul **valore atteso di una variabile aleatoria discreta**.
 
 ---
 
+### Quesito 6 – Valore atteso di una variabile aleatoria discreta
+
+Il punteggio (X) ottenuto da un soggetto a un breve test di attenzione può assumere i seguenti valori:
+
+|(x)|0|1|2|
+|---|---|---|---|
+|(P(X=x))|0.2|0.5|0.3|
+
+Calcolare il **valore atteso** di (X).
+
+A) 0.9  
+B) 1.0  
+C) 1.1  
+D) 1.3  
+E) 1.5
+
+✅ **Risposta corretta: C**
+
+---
+
+### Svolgimento (minimo accettabile)
+
+Per definizione, il valore atteso di una variabile aleatoria discreta è:  
+$$
+E[X] = \sum_x x,P(X=x).  
+$$
+
+Pertanto:  
+$$ 
+E[X] = 0\cdot 0.2 + 1\cdot 0.5 + 2\cdot 0.3  
+= 0 + 0.5 + 0.6  
+= 1.1.  
+$$
+
 ### Quesito 7 – Distribuzione della media campionaria
 
-Una popolazione ha media (\mu=10) e deviazione standard (\sigma=2).  
-Calcolare la **deviazione standard della media campionaria** per (n=16).
+Una popolazione ha media $\mu=10$ e deviazione standard $\sigma=2$.  
+Calcolare la **deviazione standard della media campionaria** per $n=16$.
 
 A) 0.25  
 B) 0.5  
@@ -262,36 +284,12 @@ E) 36
 
 ✅ Risposta corretta: **B**
 
----
-
 ## Nota sullo svolgimento
 
 Per ciascun quesito è richiesto uno svolgimento che renda chiaro:
 
 - il modello utilizzato,
-    
 - le formule applicate,
-    
 - i passaggi di calcolo essenziali.
     
-
 La sola risposta numerica **non è sufficiente**.
-
----
-
-### Chiusura franca
-
-Con questo materiale:
-
-- gli studenti **sanno esattamente** cosa li aspetta;
-    
-- l’80% è percepito come standard, non come arbitrarietà;
-    
-- sei **coperto didatticamente e istituzionalmente**.
-    
-
-Se vuoi, al prossimo passo posso:
-
-- aiutarti a **trasformare questo esempio in una banca di quiz Moodle**,
-    
-- oppure calibrare le **prove in itinere** in modo coerente con questo livello iniziale.
