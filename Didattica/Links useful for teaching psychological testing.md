@@ -1,10 +1,8 @@
 ---
-type: Zettel
-title: Teaching materials
-description: null
 modificationDate: 2024-11-09 04:55
-tags: [teaching, lm51]
-coverImage: null
+tags:
+  - teaching
+  - lm51
 ---
 
 Teaching materials useful for **Testing Psicologico**.
@@ -18,11 +16,6 @@ Tutorials on latent growth models. Implementation in R of the examples of the bo
 ---
 
 [https://www.guilford.com/companion-site/Growth-Modeling/9781462526062](https://www.guilford.com/companion-site/Growth-Modeling/9781462526062)
-
-
----
-
-
 
 ---
 

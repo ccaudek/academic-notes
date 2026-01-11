@@ -1,3 +1,10 @@
+---
+tags:
+  - UTET
+  - teaching
+  - quarto
+modificationDate: 2025-01-11
+---
 
 ```r
 # ESEMPI PRATICI - Nuove funzionalità grafiche
