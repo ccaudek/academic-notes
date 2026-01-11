@@ -19,7 +19,8 @@ Il pre-esame verte sui seguenti argomenti:
 - elementi di base di teoria della probabilità;
 - distribuzione campionaria della media, Teorema Centrale del Limite;
 - calcolo di probabilità mediante l’uso delle tavole della distribuzione normale;
-- regole elementari di calcolo combinatorio.
+- regole elementari di calcolo combinatorio;
+- proprietà delle scale di misura.
 
 ### Modalità di svolgimento
 
@@ -60,65 +61,128 @@ Per ciascun quesito selezionare **una sola risposta**. Riportare sul foglio cart
 
 ### Quesito 1 – Sommatorie
 
+Sia $X = {2, -1, 5}$ un insieme di tre osservazioni.  
 Calcolare  
 $$
-\sum_{k=1}^{10} (2k+1).  
+\sum_{i=1}^{3} (X_i - \bar X)^2,  
 $$
+dove $\bar X$ è la media campionaria.
 
-A) 100  
-B) 110  
-C) 120  
-D) 130  
-E) 140
+A) 12  
+B) 14  
+C) 18  
+D) 20  
+E) 24
+
+**Svolgimento atteso (minimo):**  
+$\bar X = 2$;  
+$(2-2)^2 + (-1-2)^2 + (5-2)^2 = 0 + 9 + 9 = 18$.
 
 ✅ Risposta corretta: **C**
 
+### Quesito 2 – Scale di misurazione 
+
+Un test psicologico di **umore** assegna a ciascun soggetto un punteggio numerico su una **scala a intervalli**, in cui il valore 0 non rappresenta assenza di umore ma è scelto in modo convenzionale.  
+Un ricercatore decide di trasformare i punteggi (X) secondo la relazione  
+$$ 
+Y = 2X + 10.  
+$$
+
+Quale delle seguenti affermazioni è **corretta**?
+
+A) La trasformazione non è ammissibile perché altera i rapporti tra i punteggi  
+B) La trasformazione è ammissibile e preserva le differenze tra i punteggi  
+C) La trasformazione è ammissibile solo se il valore 0 rappresenta assenza della caratteristica  
+D) Dopo la trasformazione è lecito affermare che un soggetto con (Y=40) ha il doppio dell’umore di un soggetto con (Y=20)  
+E) Dopo la trasformazione non è più possibile calcolare la media dei punteggi
+
+✅ **Risposta corretta: B**
+
+### Svolgimento atteso (minimo accettabile)
+
+- una scala a intervalli ammette trasformazioni del tipo (Y = aX + b), con (a>0);
+- tali trasformazioni **preservano le differenze**, ma non i rapporti;
+- l’origine è arbitraria e non ha significato assoluto;
+- operazioni come somma, differenza e media restano lecite.
+    
+👉 Non serve scrivere tutto: bastano 2–3 righe che mostrino che lo studente **sa cosa distingue una scala a intervalli**.
+
+Perfetto. Ti propongo **due quesiti distinti**, entrambi nel **formato identico** agli altri (5 alternative, 1 corretta), calibrati per:
+
+- corso triennale di psicologia;
+    
+- pre-esame selettivo ma oggettivo;
+    
+- uno **puramente computazionale**;
+    
+- uno di **interpretazione concettuale**, ma non opinabile.
+    
+
 ---
 
-### Quesito 2 – Sommatorie
+## Quesito – Statistica descrittiva (calcolo della deviazione standard)
 
-Calcolare  
-$$
-\sum_{k=1}^{5} 3^k.  
-$$
+Un campione di punteggi a un test di attenzione è costituito dai valori:  
+[  
+X = {4,; 6,; 10}.  
+]
 
-A) 120  
-B) 243  
-C) 360  
-D) 363  
-E) 405
+Calcolare la **deviazione standard campionaria** (con denominatore (n)).
 
-✅ Risposta corretta: **D**
+A) 2  
+B) (\sqrt{6})  
+C) (\sqrt{8})  
+D) (\sqrt{12})  
+E) 4
+
+**Svolgimento atteso (minimo):**  
+(\bar X = \frac{4+6+10}{3} = \frac{20}{3});  
+[  
+\frac{1}{3}\left[(4-\bar X)^2+(6-\bar X)^2+(10-\bar X)^2\right]=\frac{24}{3}=8;  
+\quad \sigma=\sqrt{8}.  
+]
+
+✅ **Risposta corretta: C**
 
 ---
 
-### Quesito 3 – Statistica descrittiva
+## Quesito – Statistica descrittiva (interpretazione della deviazione standard)
 
-Un campione è costituito dai valori: 2, 4, 6, 8.  Calcolare la **media campionaria**.
+Due gruppi di soggetti svolgono lo stesso test di memoria.  
+I due gruppi hanno **la stessa media**, ma il Gruppo A ha deviazione standard pari a 5, mentre il Gruppo B ha deviazione standard pari a 10.
 
-A) 4  
-B) 4.5  
-C) 5  
-D) 5.5  
-E) 6
+Quale delle seguenti affermazioni è **corretta**?
 
-✅ Risposta corretta: **C**
+A) Il Gruppo B ha una media più elevata del Gruppo A  
+B) I punteggi del Gruppo A sono più dispersi rispetto a quelli del Gruppo B  
+C) I punteggi del Gruppo B sono più dispersi rispetto a quelli del Gruppo A  
+D) Nel Gruppo A i punteggi sono tutti uguali  
+E) Nel Gruppo B non è possibile calcolare la media
 
-### Quesito 4 – Statistica descrittiva
+✅ **Risposta corretta: C**
 
-Per lo stesso campione del quesito precedente, calcolare la **varianza campionaria** (con denominatore (n)).
+---
 
-A) 4  
-B) 5  
-C) 6  
-D) 8  
-E) 10
+### Nota didattica (per te)
 
-✅ Risposta corretta: **A**
+Questa coppia funziona molto bene perché:
+
+- il primo quesito seleziona chi **sa calcolare davvero**;
+    
+- il secondo elimina chi **ripete definizioni senza capirle**;
+    
+- nessuno dei due è attaccabile sul piano interpretativo.
+    
+
+Se vuoi, al prossimo passo posso:
+
+- riformulare il primo quesito con **frequenze** (ancora più psicologico),
+    
+- oppure preparare **distrattori Moodle ancora più “cattivi”** (errori tipici reali).
 
 ### Quesito 5 – Probabilità di base
 
-Un evento $A$ ha probabilità $P(A)=0.3$.  Un evento $B$ è tale che $P(B\mid A)=0.5$ e $P(B\mid A^c)=0.2$.  Calcolare $P(B)).
+Un evento $A$ ha probabilità $P(A)=0.3$.  Un evento $B$ è tale che $P(B\mid A)=0.5$ e $P(B\mid A^c)=0.2$.  Calcolare $P(B)$.
 
 A) 0.23  
 B) 0.26  
@@ -177,8 +241,7 @@ E) 0.8413
 
 ### Quesito 9 – Uso delle tavole
 
-Sia (Z \sim N(0,1)).  
-Calcolare (P(Z < 1.28)).
+Sia $Z \sim N(0,1)$.  Calcolare $P(Z < 1.28)$.
 
 A) 0.8000  
 B) 0.8500  
