@@ -100,7 +100,30 @@ Corrado Caudek
 
 Carissimi,
 
-l’esame del 17 febbrario 2025 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. Pertanto è necessario portare con sé un computer portatile. Il quiz sarà presente sul sito [https://e-val.unifi.it](https://e-val.unifi.it) nella pagina B026952 (B018) - MODULO: LABORATORIO DI VALUTAZIONE PSICOLOGICA - COGNOMI A-K 2023-2024 Per accedere a quella pagina web è necessario usare la seguente chiave di iscrizione: lvp_2024 Vi raccomando di provare ad accedere a questa pagina web in anticipo rispetto al giorno dell'esame per essere sicuri di riuscire a inserire tutte le credenziali necessarie. Il Quiz utilizzato per l’esame si troverà sotto *Esami studenti non frequentanti* e avrà il nome *Esame 17 febbraio 2025*. Sarà attivo il giorno dell’esame dalle ore 8:05 alle 8:25. L’esame sarà a libri chiusi. Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula. Il Quiz sarà composto da un certo numero domande con 5 alternative di risposta, con una sola risposta corretta. Valutazione: punti: +1 per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date. **Importante** Le domande verranno presentate in ordine sequenziale, una alla volta. Non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili. **Verbalizzazione** Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta che avrò pubblicato i voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite attraverso la piattaforma SOL. La verbalizzazione sarà conclusa solo quando il voto sarà stato accettato. Un caro saluto, Corrado Caudek
+l’esame del 14 gennaio 2026 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. Pertanto è necessario portare con sé un computer portatile. 
+
+Il quiz sarà presente sul sito [https://e-val.unifi.it](https://e-val.unifi.it) nella pagina B026952 (B018) - MODULO: LABORATORIO DI VALUTAZIONE PSICOLOGICA - COGNOMI A-K 2023-2024 
+
+SI NOTI L’ANNO ACCADEMICO.
+
+Per accedere a quella pagina web è necessario usare la seguente chiave di iscrizione: 
+
+lvp_2024 
+
+Vi raccomando di provare ad accedere a questa pagina web in anticipo rispetto al giorno dell'esame per essere sicuri di riuscire a inserire tutte le credenziali necessarie. Il Quiz utilizzato per l’esame si troverà sotto *Esami studenti non frequentanti* e avrà il nome *Esame 14 gennaio 2026*. Sarà attivo il giorno dell’esame dalle ore 8:05 alle 8:25. 
+
+L’esame sarà a libri chiusi. Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula. 
+
+Il Quiz sarà composto da un certo numero domande con 5 alternative di risposta, con una sola risposta corretta. 
+
+Valutazione: punti: +1 per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date. 
+
+**Importante** Le domande verranno presentate in ordine sequenziale, una alla volta. Non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili. 
+
+**Verbalizzazione** Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta che avrò pubblicato i voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite attraverso la piattaforma SOL. La verbalizzazione sarà conclusa solo quando il voto sarà stato accettato. 
+
+Un caro saluto, 
+Corrado Caudek
 
 ## Esame Testing Psicologico
 
@@ -152,7 +175,7 @@ Corrado Caudek
 
 Carissimi,
 
-l’esame del 30 settembre 2024 si svolgerà in presenza alla Torretta. Sarà necessario portare con sé un computer portatile. Usando un set di dati presenti su Moodle, ovvero i dati che abbiamo discusso durante il corso, vi chiederò di creare un report in cui viene effettuata la validazione di un test psicometrico. L'indicazione del test da analizzare sarà fornita in aula. Vi chiederò di effettuare la validazione sia usando gli strumenti della teoria classica dei test, sia usando l'approccio più contemporaneo basato sull'analisi fattoriale e i modelli SEM. Le analisi statistiche eseguite dovranno essere commentate e i risultati dovranno essere interpretati nel report consegnato.
+l’esame del 14 gennaio 2026 si svolgerà in presenza alla Torretta. Sarà necessario portare con sé un computer portatile. Usando un set di dati presenti su Moodle, ovvero i dati che abbiamo discusso durante il corso, vi chiederò di creare un report in cui viene effettuata la validazione di un test psicometrico. L'indicazione del test da analizzare sarà fornita in aula. Vi chiederò di effettuare la validazione sia usando gli strumenti della teoria classica dei test, sia usando l'approccio più contemporaneo basato sull'analisi fattoriale e i modelli SEM. Le analisi statistiche eseguite dovranno essere commentate e i risultati dovranno essere interpretati nel report consegnato.
 
 Il report verrà realizzato usando un file .Rmd (o .qmd). Vi chiedo di caricare lo script compilato, che include sia il codice che l'output, in formato html o pdf sulla piattaforma  [https://e-val.unifi.it](https://e-val.unifi.it) nella pagina
 
