@@ -41,17 +41,28 @@ Un caro saluto, Corrado Caudek
 
 Carissimi,
 
-  l’esame del 17 febbraio 2025 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. Pertanto è necessario portare con sé un computer portatile. Il quiz sarà disponibile sul sito [e-val.unifi.it](https://e-val.unifi.it/) nella pagina:  Per accedere alla pagina web e-val.unifi è necessario utilizzare la seguente chiave di iscrizione: 
+  l’esame del 14 febbraio 2026 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. Pertanto è necessario portare con sé un computer portatile. Il quiz sarà disponibile sul sito [e-val.unifi.it](https://e-val.unifi.it/) nella pagina:  
+  
+  # B000286 (B018) - MODULO: PSICOMETRIA - COGNOMI L-Z 2024-2025
+ 
+  Per accedere alla pagina web e-val.unifi è necessario utilizzare la seguente chiave di iscrizione: 
 
 psicometria_2025 
 
-Il quiz, denominato Esame 3 luglio 2025, si troverà sotto Esami studenti non frequentanti e sarà attivo il giorno dell’esame dalle ore 8:05 alle 9:05. 
-
-Gli studenti DSA useranno il Quiz Esame 3 luglio 2025 - DSA.
+Il quiz, denominato Esame 14 gennaio 2026, si troverà sotto Esami studenti non frequentanti e sarà attivo il giorno dell’esame dalle ore 8:05 alle 9:05. 
 
 Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula. 
 
-Il quiz sarà composto da un certo numero di domande con 5 alternative di risposta, di cui una sola corretta. Valutazione: +1 punto per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date. Importante: Le domande verranno presentate in ordine sequenziale, una alla volta. Non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili. Alcuni problemi richiederanno l’utilizzo di PyMC. Pertanto, dovete averlo installato sul vostro computer oppure saperlo utilizzare su Colab. Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta pubblicati i voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite l'app o la piattaforma SOL. La verbalizzazione sarà conclusa una volta accettato il voto. Un caro saluto,  Corrado Caudek
+Il quiz sarà composto da un certo numero di domande con 5 alternative di risposta, di cui una sola corretta. 
+
+Valutazione: +1 punto per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date. 
+
+Importante: Le domande verranno presentate in ordine sequenziale, una alla volta. Non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili. 
+
+Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta pubblicati i voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite l'app o la piattaforma SOL. La verbalizzazione sarà conclusa una volta accettato il voto. 
+
+Un caro saluto,  
+Corrado Caudek
 
 # B000286 (B018) - MODULO: PSICOMETRIA - COGNOMI L-Z 2024-2025
 
