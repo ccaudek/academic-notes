@@ -6,6 +6,26 @@ modificationDate: 2026-01-01
 ---
 # Stato dei lavori
 
+## Interpretazione dei coefficenti di interazione
+
+**Codifica dei contrasti:**
+
+- **c1 (stress)**: baseline = -0.5, pre = +0.5, post = 0 → cattura **(pre - baseline)**
+- **c2 (recovery)**: baseline = 0, pre = -0.5, post = +0.5 → cattura **(post - pre)**
+
+**Interpretazione dei coefficienti di moderazione (g1, g2):**
+
+**Per g1 (stress reactivity):**
+
+- **g1 > 0**: individui con alto tratto mostrano _maggiore_ aumento di F0 da baseline a pre-exam (reattività amplificata)
+- **g1 < 0**: individui con alto tratto mostrano _minore_ aumento di F0 da baseline a pre-exam (reattività attenuata)
+
+**Per g2 (recovery):**
+
+- Se F0 aumenta sotto stress, ci aspettiamo che nel recovery F0 _diminuisca_ (post < pre)
+- **g2 > 0**: individui con alto tratto mostrano F0 relativamente _più alto_ nel post rispetto al pre → **recovery peggiore**
+- **g2 < 0**: individui con alto tratto mostrano F0 relativamente _più basso_ nel post rispetto al pre → **recovery migliore**
+
 ## 1. Stress effect
 
 - Controllati gli script e il flusso di lavoro riproducibile.
