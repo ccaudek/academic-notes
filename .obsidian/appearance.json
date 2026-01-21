@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Cupertino",
+  "cssTheme": "Baseline",
   "accentColor": "",
   "theme": "moonstone",
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": ""
+  "interfaceFontFamily": "Helvetica Now Micro,Helvetica Now Text",
+  "textFontFamily": "Helvetica Now Text",
+  "monospaceFontFamily": "Google Sans Code"
 }
