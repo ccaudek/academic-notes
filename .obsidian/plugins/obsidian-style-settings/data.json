@@ -2,5 +2,6 @@
   "cupertino@@center-tabs-off": true,
   "cupertino@@active-line-off": true,
   "cupertino@@mode-switcher-off": false,
-  "cupertino@@compact-status-bar-off": true
+  "cupertino@@compact-status-bar-off": true,
+  "baseline-style@@accented-interface": false
 }
