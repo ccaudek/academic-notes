@@ -40,7 +40,13 @@ Note that there are five types of callouts, including:
 
 :::
 ```
+## Highlight
 
+Evidenziatore: 
+
+```markdown
+<mark>Testo</mark>
+```
 ## Cross-referencing
 
 Cross-references make it easier for readers to navigate your document by providing numbered references and hyperlinks to various entities like figures and tables. Every cross-referenceable entity requires a label (unique identifier prefixed with type e.g. `#fig-element`) and caption (description). The man page is [here](https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs).
