@@ -17,6 +17,17 @@ Note that there are five types of callouts, including:
 ```
 
 ---
+## Rimpicciolire il testo delle slide
+
+```
+## Titolo della slide
+
+<div style="font-size: 0.85em;">
+
+... testo ...
+
+</div>
+```
 
 ### Callout con titolo
 
