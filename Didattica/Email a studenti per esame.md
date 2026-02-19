@@ -153,21 +153,23 @@ Per gli studenti non frequentanti, l'esame previsto per il 21 giugno 2024 si ter
 Un caro saluto,
 Corrado Caudek
 
-## Psicometria II prova
+## Psicometria 
 
 Carissimi,
 
-la seconda prova in itinere per gli studenti frequentanti si svolgerà in presenza alla Torretta lunedì 20 maggio 2024, durante l'orario di lezione. Avrà la forma di un Quiz Moodle, perciò dovrete portare con voi un computer portatile.
+l’esame di Psicometria si svolgerà in presenza alla Torretta venerdì 20 febbraio 2026. Avrà la forma di un Quiz Moodle, perciò dovrete portare con voi un computer portatile.
 
 Il quiz sarà presente sul sito [https://e-val.unifi.it](https://e-val.unifi.it) nella pagina
 
-B000286 (B018) - MODULO: PSICOMETRIA - COGNOMI L-Z 2023-2024
+B000286 (B018) - MODULO: PSICOMETRIA - COGNOMI L-Z 2024-2025
+
+Il Quiz Moodle è lo stesso, sia per gli studenti AK che per quelli LZ (tutti gli studenti devono usare la pagina e-val indicata sopra).
 
 Per accedere a alla pagina web e-val.unifi è necessario usare la seguente chiave di iscrizione:
 
-psicometria_2024
+psicometria_2025
 
-Il Quiz  si trova nella sezione **Esame 20 maggio 2024**. Sarà attivo il giorno dell’esame dalle ore 8:45 alle 10:30.
+Il Quiz  è chiamato **Esame 20 febbraio 2026**. Sarà attivo il giorno dell’esame dalle ore 8:05 alle 9.05.
 
 Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula.
 
@@ -176,8 +178,6 @@ Il Quiz sarà composto da un certo numero domande con 5 alternative di risposta,
 Valutazione: punti: +1 per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date.
 
 **Importante**: Le domande verranno presentate in ordine sequenziale, una alla volta. Pertanto, non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili.
-
-La soluzione di alcuni dei problemi richiederà l’utilizzo di PyMC. Pertanto dovete averlo installato sul vostro computer, oppure dovete saperlo usare su Colab.
 
 Un caro saluto,
 Corrado Caudek
