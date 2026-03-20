@@ -1,3 +1,9 @@
+---
+tags:
+  - moodle
+  - teaching
+  - quarto
+---
 
 Per stampare le slide Quarto in pdf, installare `decktape`
 
