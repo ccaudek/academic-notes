@@ -3,5 +3,9 @@
   "cupertino@@active-line-off": true,
   "cupertino@@mode-switcher-off": false,
   "cupertino@@compact-status-bar-off": true,
-  "baseline-style@@accented-interface": false
+  "baseline-style@@accented-interface": false,
+  "obsidian-velocity@@theme-paint-light": "velocity",
+  "obsidian-velocity@@enable-special-text": true,
+  "obsidian-velocity@@enable-special-code": true,
+  "obsidian-velocity@@override-default-font": false
 }
