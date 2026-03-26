@@ -14,6 +14,6 @@ npm install -g decktape
 Poi
 
 ```bash
-decktape reveal esercitazione_probabilita_1.html esercitazione_probabilita_1.pdf
+decktape reveal file_1.html file_1.pdf
 ```
 
