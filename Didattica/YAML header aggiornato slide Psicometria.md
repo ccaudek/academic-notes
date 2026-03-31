@@ -8,7 +8,7 @@ tags:
 ---
 title: "Esercitazione: La verosimiglianza in R"
 subtitle: "Segmento 2 — Dati continui e combinazione di evidenze"
-version: 3.0
+version: 5.0
 author:
   - name: Corrado Caudek
     orcid: 0000-0002-1404-0420
