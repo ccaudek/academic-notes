@@ -1,10 +1,8 @@
 ---
-type: Zettel
-title: Risposta richiesta tesi L-24
-description: null
 modificationDate: 2025-03-01 11:19
-tags: [teaching, l24]
-coverImage: null
+tags:
+  - teaching
+  - l24
 ---
 
 Cara X,

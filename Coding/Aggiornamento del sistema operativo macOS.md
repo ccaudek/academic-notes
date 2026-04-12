@@ -1,10 +1,7 @@
 ---
-title: Aggiornamento del sistema operativo macOS
-description:
 modificationDate: 2025-09-16 04:23
 tags:
   - cmdstan
-coverImage:
 ---
 
 Per eseguire il rebuild delle toolchain di CmdStan dopo un aggiornamento di macOS, necessario per potere usare **cmdstan**, segui questi passaggi:
