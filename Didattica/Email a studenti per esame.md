@@ -93,7 +93,8 @@ Valutazione: punti: +1 per le risposte corrette, -0.25 per le risposte sbagliate
 
 **Importante.** Le domande verranno presentate in ordine sequenziale, una alla volta. Non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili. 
 
-**Verbalizzazione.** Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta che avrò pubblicato i voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite attraverso la piattaforma SOL. La verbalizzazione sarà conclusa solo quando il voto sarà stato accettato. 
+**Verbalizzazione.** Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta che avrò pubblicato i 
+voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite attraverso la piattaforma SOL. La verbalizzazione sarà conclusa solo quando il voto sarà stato accettato. 
 
 Un caro saluto, 
 Corrado Caudek
