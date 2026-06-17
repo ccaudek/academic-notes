@@ -68,36 +68,6 @@ Cordiali saluti,
 Corrado Caudek
 
 ---
-## Psicometria 
-
-Carissimi,
-
-l’esame di Psicometria si svolgerà in presenza alla Torretta venerdì 20 febbraio 2026. Avrà la forma di un Quiz Moodle, perciò dovrete portare con voi un computer portatile.
-
-Il quiz sarà presente sul sito [https://e-val.unifi.it](https://e-val.unifi.it) nella pagina
-
-B000286 (B018) - MODULO: PSICOMETRIA - COGNOMI L-Z 2024-2025
-
-Il Quiz Moodle è lo stesso, sia per gli studenti AK che per quelli LZ (tutti gli studenti devono usare la pagina e-val indicata sopra).
-
-Per accedere a alla pagina web e-val.unifi è necessario usare la seguente chiave di iscrizione:
-
-psicometria_2025
-
-Il Quiz  è chiamato **Esame 20 febbraio 2026**. Sarà attivo il giorno dell’esame dalle ore 8:05 alle 9.05.
-
-Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula.
-
-Il Quiz sarà composto da un certo numero domande con 5 alternative di risposta, con una sola risposta corretta.
-
-Valutazione: punti: +1 per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date.
-
-**Importante**: Le domande verranno presentate in ordine sequenziale, una alla volta. Pertanto, non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili.
-
-Un caro saluto,
-Corrado Caudek
-
----
 
 ## Esame LVP
 
