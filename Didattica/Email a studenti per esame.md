@@ -6,38 +6,65 @@ tags:
 ---
 # Esame Psicometria frequentanti
 
-Gentili studenti,
+Oggetto: **Esame del 18 giugno 2026 – Istruzioni importanti per frequentanti e non frequentanti**
 
-nell’appello del 18 giugno 2026 verranno verbalizzati i voti degli studenti frequentanti. Non è necessario che gli studenti frequentanti vengano alla Torretta. Verranno verbalizzati i voti pubblicati su Moodle con le eventuali correzioni relative ai punti bonus stabilite nell’incontro del 17 giugno 2026. Importante: se si verifica un errore di trascrizione dal foglio Excel al data base UniFi, NON DOVETE accettare il voto. In quel caso, e solo in quel caso, mi contattate via email fornendomi tutte le informazioni (nome, cognome, matricola e voto corretto) e correggerò l’informazione nel data base. Una volta che avete accettato il voto questo non può più essere cambiato.
+Gentili Studenti,  
 
-Per gli studenti non frequentanti, l’esame del 18 giugno 2026 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. È necessario portare con sé un computer portatile.
+con la presente vi forniamo le indicazioni essenziali per la gestione dell’appello d’esame del **18 giugno 2026**.  
 
-Il quiz sarà disponibile sul sito [e-val.unifi.it](https://e-val.unifi.it/) nella pagina:
+---
 
-B000286 (B319) - MODULO: PSICOMETRIA - COGNOMI A-K 2025-2026
+### Per gli studenti **frequentanti**  
+- I voti saranno verbalizzati automaticamente sulla base dei punteggi pubblicati su Moodle, inclusi eventuali aggiustamenti derivanti dai punti bonus stabiliti durante l’incontro del **17 giugno 2026**.  
+- **Non è necessario che vi rechiate alla Torretta**.  
+- **Attenzione**: se doveste riscontrare un errore di trascrizione tra il foglio Excel e il database UniFi, **non accettate il voto**. In tal caso, contattatemi **esclusivamente via email** indicando:  
+  - nome e cognome,  
+  - numero di matricola,  
+  - voto corretto.  
+  Provvederò alla correzione.  
+- **Ricordate**: una volta accettato il voto, non sarà più modificabile.
 
-Si noti la coorte: viene usata questa pagina web per entrambe le coorti (non c’è una corrispondente pagina web per la coorte L-Z: gli studenti della coorte L-Z devono usare questa pagina web).
+---
 
-Per accedere alla pagina web e-val.unifi è necessario utilizzare la seguente chiave di iscrizione:
+### Per gli studenti **non frequentanti**  
+- L’esame si svolgerà **in presenza presso la Torretta** e consisterà in un **Quiz Moodle**.  
+- **È obbligatorio portare con sé un computer portatile**.  
 
-**psicometria_2026**
+#### Accesso al quiz  
+- La piattaforma da utilizzare è: **[e-val.unifi.it](https://e-val.unifi.it/)**  
+- Pagina di riferimento:  
+  **B000286 (B319) - MODULO: PSICOMETRIA - COGNOMI A-K 2025-2026**  
+  *Nota bene*: questa è l’unica pagina attiva per **entrambe le coorti** (A-K e L-Z). Gli studenti L-Z dovranno utilizzare la stessa pagina.
 
-Gli studenti della coorte A-K troveranno il 
+- **Chiave di iscrizione**: `psicometria_2026`
 
+- All’interno della pagina, troverete due sezioni distinte:  
+  - **Coorte A-K** → sezione *Esami ufficiali – Non frequentanti – Cognomi A-K*  
+  - **Coorte L-Z** → sezione *Esami ufficiali – Non frequentanti – Cognomi L-Z*
 
-Il quiz, denominato **Esame 21 giugno 2024**, si troverà sotto *Esami studenti non frequentanti* e sarà attivo il giorno dell’esame dalle ore 8:05 alle 9:05. Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula.
+#### Svolgimento del quiz  
+- **Data e ora**: il quiz sarà attivo il **18 giugno 2026 dalle ore 8:05 alle 9:05**.  
+- **Password di accesso**: verrà comunicata **in aula** il giorno dell’esame.  
+- **Struttura**: domande a risposta multipla con **5 opzioni**, di cui una sola corretta.  
+- **Modalità di somministrazione**: le domande appariranno **in ordine sequenziale, una alla volta**. Non sarà possibile visualizzare tutte le domande in anteprima né tornare indietro dopo aver risposto a una domanda.
 
-Il quiz sarà composto da un certo numero di domande con 5 alternative di risposta, di cui una sola corretta.
+#### Valutazione  
+- Punteggio **sui dati grezzi**:  
+  - risposta corretta: **+1 punto**  
+  - risposta errata: **-0,25 punti**  
+  - risposta non data: **0 punti**  
+- Il punteggio grezzo verrà **convertito automaticamente da Moodle in trentesimi**.
 
-**Valutazione**: +1 punto per le risposte corrette, -0.25 per le risposte sbagliate, 0 per le risposte non date.
+---
 
-**Importante**: Le domande verranno presentate in ordine sequenziale, una alla volta. Non sarà possibile visualizzare tutte le domande in anticipo e poi tornare indietro. Dopo aver proceduto alla domanda successiva, le domande precedenti non saranno più accessibili.
+### Disposizioni finali per tutti i non frequentanti  
+- Al termine del quiz, **dovrete rimanere in aula** per consentire il completamento della procedura di verbalizzazione.  
+- Una volta pubblicati i voti, gli studenti che avranno raggiunto la sufficienza sono invitati ad **accettare il voto tramite l’app o la piattaforma SOL**.  
+- Il voto verrà acquisito dal sistema **dopo l’accettazione dello studente** oppure **decorsi 7 giorni** dalla pubblicazione. Trascorso tale termine, provvederò alla verbalizzazione definitiva.
 
-Alcuni problemi richiederanno l’utilizzo di PyMC. Pertanto, dovete averlo installato sul vostro computer oppure saperlo utilizzare su Colab.
+---
 
-Vi prego di restare in aula al termine dell'esame per completare il processo di verbalizzazione. Una volta pubblicati i voti, gli studenti che hanno raggiunto la sufficienza sono invitati ad accettare il voto tramite l'app o la piattaforma SOL. La verbalizzazione sarà conclusa una volta accettato il voto.
-
-Un caro saluto, 
+Cordiali saluti,  
 Corrado Caudek
 
 ---
