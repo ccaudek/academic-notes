@@ -6,21 +6,24 @@ tags:
 ---
 # Esame Psicometria frequentanti
 
-Carissimi,
+Gentili studenti,
 
-per gli studenti frequentanti, in questo appello d'esame verbalizzerò il voto ottenuto mediante i parziali. Pubblicherò i risultati nel primo pomeriggio e la sera procederò con la verbalizzazione dei voti accettati. In caso contrario, il sistema richiede di attendere una settimana per la verbalizzazione.
+nell’appello del 18 giugno 2026 verranno verbalizzati i voti degli studenti frequentanti. Non è necessario che gli studenti frequentanti vengano alla Torretta. Verranno verbalizzati i voti pubblicati su Moodle con le eventuali correzioni relative ai punti bonus stabilite nell’incontro del 17 giugno 2026. Importante: se si verifica un errore di trascrizione dal foglio Excel al data base UniFi, NON DOVETE accettare il voto. In quel caso, e solo in quel caso, mi contattate via email fornendomi tutte le informazioni (nome, cognome, matricola e voto corretto) e correggerò l’informazione nel data base. Una volta che avete accettato il voto questo non può più essere cambiato.
 
-**IMPORTANTE**: La trascrizione dei voti dal file Excel presente su Moodle nel database della firma digitale richiede un passaggio manuale. Questo può comportare degli errori, soprattutto considerando l'elevato numero di studenti iscritti all'esame. Pertanto, se rilevate un errore nel voto pubblicato, NON DOVETE accettarlo. Invece, contattatemi via email per le necessarie correzioni. Se il voto viene accettato, non potrò più modificarlo. Gli studenti che hanno sostenuto i parziali e devono solo verbalizzare non è necessario che vengano alla Torretta.
-
-Per gli studenti non frequentanti, l’esame del 21 giugno 2024 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. È necessario portare con sé un computer portatile.
+Per gli studenti non frequentanti, l’esame del 18 giugno 2026 si svolgerà in presenza alla Torretta e sarà strutturato come un Quiz Moodle. È necessario portare con sé un computer portatile.
 
 Il quiz sarà disponibile sul sito [e-val.unifi.it](https://e-val.unifi.it/) nella pagina:
 
-B000286 (B018) - MODULO: PSICOMETRIA - COGNOMI L-Z 2023-2024
+B000286 (B319) - MODULO: PSICOMETRIA - COGNOMI A-K 2025-2026
+
+Si noti la coorte: viene usata questa pagina web per entrambe le coorti (non c’è una corrispondente pagina web per la coorte L-Z: gli studenti della coorte L-Z devono usare questa pagina web).
 
 Per accedere alla pagina web e-val.unifi è necessario utilizzare la seguente chiave di iscrizione:
 
-**psicometria_2024**
+**psicometria_2026**
+
+Gli studenti della coorte A-K troveranno il 
+
 
 Il quiz, denominato **Esame 21 giugno 2024**, si troverà sotto *Esami studenti non frequentanti* e sarà attivo il giorno dell’esame dalle ore 8:05 alle 9:05. Per accedere al Quiz sarà necessaria una password che verrà comunicata in aula.
 
