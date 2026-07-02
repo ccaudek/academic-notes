@@ -10,7 +10,7 @@ Oggetto: **Esame del 18 giugno 2026 – Istruzioni importanti per frequentanti e
 
 Gentili Studenti,  
 
-con la presente vi forniamo le indicazioni essenziali per la gestione dell’appello d’esame del **18 giugno 2026**.  
+con la presente vi forniamo le indicazioni essenziali per la gestione dell’appello d’esame del **3 luglio 2026**.  
 
 ---
 
