@@ -1,3 +1,9 @@
+---
+tags:
+  - github
+  - git
+modificationDate: 2026-07-16T11:39:00
+---
 GitHub richiede un token al posto della password per Git via HTTPS, e il token va inserito come “password” quando Git chiede le credenziali.
 Quando cambio il fine-grained token è necessario seguire la procedura indicata di seguito.
 ### 1) Pulisci le credenziali vecchie salvate localmente
@@ -14,8 +20,6 @@ Poi cancella le credenziali GitHub in cache:
 ```bash
 printf "protocol=https\nhost=github.com\n\n" | git credential reject
 ```
-
-Se sei su **Windows** e continua a usare il token vecchio: vai in **Credential Manager → Windows Credentials**, cerca la voce GitHub e cancellala. GitHub documenta proprio questo caso: credenziali errate o vecchie in Windows Credential Manager fanno fallire l’accesso. ([GitHub Docs](https://docs.github.com/get-started/git-basics/caching-your-github-credentials-in-git "Caching your GitHub credentials in Git - GitHub Docs"))
 
 ### 2) Rifai il push e inserisci il token come password
 
