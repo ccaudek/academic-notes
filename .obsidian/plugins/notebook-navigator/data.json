@@ -60,7 +60,8 @@
           "transitionStyle": "hue",
           "scope": "root"
         }
-      }
+      },
+      "descendantExcludedFolders": []
     }
   ],
   "vaultTitle": "navigation",
@@ -74,6 +75,9 @@
     "useFloatingToolbars": "synced",
     "dualPane": "local",
     "dualPaneOrientation": "local",
+    "narrowSidebarLayout": "synced",
+    "narrowSidebarTriggerMode": "synced",
+    "narrowSidebarCustomWidth": "synced",
     "paneTransitionDuration": "local",
     "toolbarVisibility": "local",
     "pinNavigationBanner": "synced",
@@ -103,10 +107,15 @@
   "showInfoButtons": true,
   "homepage": {
     "source": "none",
-    "file": null
+    "file": null,
+    "createMissingPeriodicNote": true
   },
+  "narrowSidebarLayout": "singlePane",
+  "narrowSidebarTriggerMode": "fitPanes",
+  "narrowSidebarCustomWidth": 350,
   "showTooltips": false,
   "showTooltipPath": true,
+  "showTooltipWordCount": false,
   "desktopBackground": "separate",
   "useFloatingToolbars": true,
   "interfaceIcons": {},
@@ -123,9 +132,12 @@
   "showNoteCount": true,
   "separateNoteCounts": true,
   "showIndentGuides": false,
+  "navCountLeaderStyle": "none",
   "rootLevelSpacing": 0,
   "collapseBehavior": "all",
   "smartCollapse": true,
+  "excludeVaultRootFromCollapse": false,
+  "collapseOtherBranchesOnExpand": false,
   "autoSelectFirstFileOnFocusChange": false,
   "autoExpandNavItems": false,
   "springLoadedFolders": true,
@@ -151,7 +163,8 @@
   "enableFolderNoteLinks": true,
   "hideFolderNoteInList": true,
   "pinCreatedFolderNote": false,
-  "openFolderNotesInNewTab": false,
+  "folderNoteOpenLocation": "current-tab",
+  "showNearestFolderNoteInSidebar": true,
   "showTags": true,
   "showTagIcons": true,
   "showAllTagsFolder": true,
@@ -169,20 +182,25 @@
   "defaultFolderSort": "modified-desc",
   "propertySortKey": "",
   "propertySortSecondary": "title",
+  "manualSortPropertyKey": "sort_index",
+  "manualSortGroupHeaderProperty": "group_header",
+  "manualSortNewNotePlacement": "below-selected-note",
+  "confirmBeforeManualSort": true,
   "revealFileOnListChanges": true,
   "listPaneTitle": "header",
   "noteGrouping": "date",
   "showSelectedNavigationPills": false,
+  "stickyGroupHeaders": true,
+  "showFolderGroupPaths": true,
+  "showCurrentFolderFilesAtBottom": false,
   "filterPinnedByFolder": false,
-  "showPinnedGroupHeader": true,
-  "showPinnedIcon": true,
-  "optimizeNoteHeight": true,
   "showQuickActions": true,
   "quickActionRevealInFolder": false,
   "quickActionAddTag": true,
   "quickActionAddToShortcuts": true,
   "quickActionPinNote": true,
   "quickActionOpenInNewTab": false,
+  "hideDrawingPreviewImages": true,
   "useFrontmatterMetadata": false,
   "frontmatterIconField": "icon",
   "frontmatterColorField": "color",
@@ -195,11 +213,14 @@
   "showFileBackgroundUnfinishedTask": false,
   "unfinishedTaskBackgroundColor": "#ef000050",
   "showFileIcons": true,
+  "useFolderIconForFiles": false,
   "showFilenameMatchIcons": false,
   "fileNameIconMap": {},
   "showCategoryIcons": false,
   "fileTypeIconMap": {},
+  "fileTypeIconPreset": "none",
   "fileNameRows": 1,
+  "useFolderColorForTitles": false,
   "showFilePreview": true,
   "skipHeadingsInPreview": true,
   "skipCodeBlocksInPreview": true,
@@ -227,10 +248,15 @@
   "showPropertiesOnSeparateRows": false,
   "enablePropertyInternalLinks": true,
   "enablePropertyExternalLinks": true,
-  "notePropertyType": "none",
+  "textCountDisplay": "none",
+  "textCountPlacement": "title",
+  "characterCountSpaces": "include",
+  "wordCountTargetProperty": "word-goal",
+  "showWordCountPercentage": false,
   "showFileDate": true,
   "alphabeticalDateMode": "modified",
   "showParentFolder": true,
+  "showParentFolderFullPath": false,
   "parentFolderClickRevealsFile": false,
   "showParentFolderColor": true,
   "showParentFolderIcon": false,
@@ -242,12 +268,14 @@
   "calendarMonthHeadingFormat": "full",
   "calendarHighlightToday": true,
   "calendarShowFeatureImage": true,
+  "calendarShowTasks": true,
   "calendarMonthHighlights": {},
   "calendarShowWeekNumber": false,
   "calendarShowQuarter": false,
   "calendarShowYearCalendar": true,
   "calendarLeftPlacement": "navigation",
   "calendarIntegrationMode": "notebook-navigator",
+  "calendarPeriodicNotesLocaleSource": "calendar",
   "calendarCustomFilePattern": "YYYY/YYYYMMDD",
   "calendarCustomWeekPattern": "gggg/[W]ww",
   "calendarCustomMonthPattern": "YYYY/YYYYMM",
@@ -292,6 +320,12 @@
     "pane:end": [
       {
         "key": "End",
+        "modifiers": []
+      }
+    ],
+    "pane:rename": [
+      {
+        "key": "Enter",
         "modifiers": []
       }
     ],
@@ -369,6 +403,22 @@
         ]
       }
     ],
+    "list:manual-sort-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": [
+          "Mod"
+        ]
+      }
+    ],
+    "list:manual-sort-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": [
+          "Mod"
+        ]
+      }
+    ],
     "list:range-to-start": [
       {
         "key": "Home",
@@ -412,6 +462,7 @@
   },
   "customVaultName": "",
   "pinnedNotes": {},
+  "collapsedPinnedContexts": {},
   "fileIcons": {},
   "fileColors": {},
   "fileBackgroundColors": {},
@@ -458,7 +509,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "2.5.7",
+  "lastShownVersion": "3.2.3",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []
