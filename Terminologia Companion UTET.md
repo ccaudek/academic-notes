@@ -166,3 +166,16 @@ Di conseguenza, nei file già rivisti sostituirei sistematicamente:
     
 
 Questa scelta è terminologicamente tradizionale, evita l’ambiguità e coincide con il modo in cui la homepage già descrive l’architettura complessiva del Companion.
+
+## Inizio del capitolo
+
+::: {.callout-note appearance="minimal"}
+
+::: {.callout-important appearance="minimal" .chapter-status}
+**Da sapere.** 
+
+::: {.callout-tip collapse="true" title="Prerequisiti"}
+
+::: {.callout-caution collapse="true" title="Preparazione del notebook"}
+
+
