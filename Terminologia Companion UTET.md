@@ -1,4 +1,11 @@
-Template per il progetto.
+---
+modificationDate: 2026-07-26T15:02:00
+tags:
+  - teaching
+  - UTET
+  - quarto
+---
+## La gerarchia del Companion
 
 **Crisi, Diagnosi, Svolta, Calcolo, Modelli, Causalità, Estensioni, Applicazione, Valutazione e Visione vanno chiamate “Parti”**.
 
