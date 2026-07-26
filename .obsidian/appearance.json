@@ -1,8 +1,8 @@
 {
   "cssTheme": "Minimal",
   "accentColor": "",
-  "theme": "moonstone",
-  "interfaceFontFamily": "Helvetica Now Micro,Helvetica Now Text",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Helvetica Now Text",
   "textFontFamily": "Helvetica Now Text",
   "monospaceFontFamily": "Google Sans Code"
 }

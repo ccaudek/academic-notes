@@ -1,3 +1,5 @@
+Template per il progetto.
+
 **Crisi, Diagnosi, Svolta, Calcolo, Modelli, Causalità, Estensioni, Applicazione, Valutazione e Visione vanno chiamate “Parti”**.
 
 È la soluzione più naturale sia per la gerarchia del Companion sia per la consuetudine editoriale italiana.
