@@ -542,3 +542,478 @@ La presenza dell’intelligenza artificiale potrebbe diventare un espediente all
 **L’agente che smise di massimizzare** è il più rischioso, ma anche il più sorprendente. Potrebbe produrre il libro più originale, a condizione di accettare una forma meno accademica e più letteraria.
 
 Una strategia particolarmente solida sarebbe usare **Il sé è un’ipotesi** come libro principale, sperimentare alcuni protocolli di **Laboratorio dell’incertezza** durante la sua scrittura e conservare **L’agente che smise di massimizzare** come sviluppo filosofico successivo. In questo modo i tre progetti formerebbero quasi una trilogia: **il sé, l’osservazione, l’azione**.
+
+---
+
+Sì. La soluzione più promettente, a mio avviso, consiste nel **separare due livelli**:
+
+1. un’esperienza personale, che aiuti gli studenti a riconoscere prior, previsioni, errori e aggiornamenti nella propria vita;
+2. un livello standardizzato, dal quale ricavare dati confrontabili e adatti a una pubblicazione.
+
+Questa separazione è importante. L’esperienza può essere personale senza che gli studenti debbano consegnare al docente contenuti personali. Il progetto di ricerca, invece, può basarsi su compiti standardizzati, comportamentali e a basso rischio.
+
+L’idea buddhista che riciclerei non sarebbe “la meditazione fa bene”, ma una tesi molto più precisa:
+
+> **Una credenza è un prodotto provvisorio del nostro modello, non una parte della nostra identità.**
+
+Nel progetto scientifico la chiamerei **decentramento epistemico**, oppure **model framing**, non “buddhismo”. L’ispirazione può essere buddhista; il costrutto sperimentale deve essere laico, operativo e falsificabile.
+
+---
+
+# 1. Progetto principale: **Le credenze sono ipotesi**
+
+### Possibile titolo dell’articolo
+
+**Beliefs Are Hypotheses, Not Identities: A Preregistered Classroom Experiment on Epistemic Decentering and Probabilistic Calibration**
+
+Oppure, in una versione più didattica:
+
+**From Bayesian Formulas to Self-Calibration: A Randomized Field Experiment in an Introductory Psychology Course**
+
+## La domanda di ricerca
+
+> Presentare una probabilità come l’output provvisorio di un modello, anziché come una convinzione personale, aiuta gli studenti a essere meglio calibrati e ad aggiornare maggiormente le proprie credenze quando l’evidenza è contraria?
+
+La domanda non è se imparano a calcolare correttamente un posterior. È più interessante:
+
+> **Usano il modo di pensare bayesiano anche quando devono valutare la propria incertezza?**
+
+Esistono precedenti incoraggianti, anche se in contesti diversi. In corsi introduttivi di fisica, attività di aggiornamento bayesiano inserite dentro lezioni, esercitazioni e compiti — quindi come pratiche ricorrenti più che come nuovi argomenti — sono state associate a cambiamenti nelle credenze epistemologiche degli studenti. In studi sulla previsione probabilistica, brevi interventi di formazione e pratica hanno migliorato i Brier score rispetto al controllo. Questi risultati non dimostrano che il progetto proposto funzionerà, ma mostrano che attività relativamente leggere possono produrre effetti misurabili sul modo di trattare l’incertezza. [APS Journals](https://link.aps.org/doi/10.1103/PhysRevPhysEducRes.16.010101)
+
+## L’esperienza didattica
+
+Invece di chiedere agli studenti soltanto una risposta, in alcuni esercizi già presenti nel corso si chiede:
+
+1. la risposta;
+2. la probabilità che la risposta sia corretta;
+3. dopo la comparsa di un nuovo dato, una seconda probabilità;
+4. alla fine, un confronto tra previsione ed esito.
+
+Non è necessario introdurre un nuovo argomento. Si cambia semplicemente la **forma di risposta** agli esercizi esistenti.
+
+Per esempio:
+
+> Quale modello considera più plausibile?  
+> Quale probabilità assegna a \(H_1\)?  
+> Quale evidenza la indurrebbe a modificare questa probabilità?  
+> Dopo aver osservato il dato \(D\), quale probabilità assegna ora a \(H_1\)?
+
+In altri esercizi:
+
+> Qual è la probabilità che la sua risposta al prossimo item sia corretta?
+
+L’esito è immediatamente verificabile. Lo studente inizia così a vedere la differenza tra:
+
+- conoscenza e fiducia nella propria conoscenza;
+- accuratezza e calibrazione;
+- previsione ed esito;
+- essere in errore e avere formulato una previsione informativa.
+
+## La componente personale, ma privata
+
+Una volta alla settimana lo studente formula una previsione personale binaria, per esempio:
+
+- “Con quale probabilità completerò l’esercitazione entro venerdì?”
+- “Con quale probabilità ricorderò domani i tre passaggi di questo procedimento?”
+- “Con quale probabilità studierò il materiale prima della prossima lezione?”
+
+La frase completa resta nel quaderno o nel file personale dello studente. Non viene consegnata al ricercatore.
+
+Nel database, eventualmente, potrebbero entrare soltanto:
+
+- probabilità;
+- esito 0/1;
+- orizzonte temporale;
+- una categoria generale, come “studio”, “organizzazione” o “evento esterno”.
+
+Ma per il primo studio sarei ancora più prudente: userei il diario personale esclusivamente come esperienza didattica e baserei l’articolo sui compiti standardizzati. Le previsioni autogenerate sono difficili da confrontare, perché gli studenti scelgono eventi di difficoltà e verificabilità diverse.
+
+## Il confronto sperimentale
+
+Tutti gli studenti ricevono gli stessi contenuti, gli stessi esercizi e lo stesso feedback numerico. Cambia soltanto la cornice nella quale viene presentato l’errore o l’aggiornamento.
+
+### Condizione di controllo
+
+> Indichi la probabilità sulla base delle informazioni disponibili. Controlli che l’evento sia definito chiaramente e che il valore sia compreso tra 1 e 99.
+
+### Condizione di decentramento epistemico
+
+> Indichi la probabilità prodotta dal suo modello attuale. Il nuovo dato valuterà il modello, non la persona. Prima di confermare, consideri quale evidenza la porterebbe a modificare la stima.
+
+Dopo un errore ad alta confidenza:
+
+### Feedback neutro
+
+> La risposta non era corretta. Esamini la spiegazione e passi all’item successivo.
+
+### Feedback decentrato
+
+> Questa osservazione è informazione sul modello che ha prodotto la risposta. Non è un giudizio sulla sua capacità. Aggiorni il modello nella misura richiesta dall’evidenza.
+
+Le due versioni dovrebbero avere lunghezza, leggibilità e durata simili. Non nominerei il buddhismo durante la raccolta dei dati: introdurrebbe aspettative, atteggiamenti religiosi e caratteristiche della domanda sperimentale che non servono.
+
+## Disegno consigliato
+
+Randomizzerei gli studenti **all’interno di ciascun modulo**, stratificando per modulo ed eventualmente per calibrazione iniziale. Non assegnerei un intero modulo alla condizione sperimentale e l’altro al controllo: “modulo” e “intervento” diventerebbero inseparabili.
+
+I due moduli possono funzionare come due coorti di replicazione:
+
+- stima separata dell’effetto nel modulo A;
+- stima separata nel modulo B;
+- stima complessiva con partial pooling.
+
+Se i moduli procedono contemporaneamente, li definirei fin dall’inizio come due repliche parallele, senza usare il primo per modificare le ipotesi del secondo.
+
+Una sequenza possibile è questa:
+
+|Fase|Attività|Funzione|
+|---|---|---|
+|Baseline|12–16 item non valutati, risposta e probabilità di correttezza|Calibrazione iniziale|
+|Quattro-sei sessioni|Esercizi ordinari con probabilità, evidenza e aggiornamento|Esposizione ripetuta|
+|Diario privato|Una previsione personale settimanale|Significato personale|
+|Feedback intermedio|Grafico personale di calibrazione, senza graduatorie|Motivazione e apprendimento|
+|Post-test|Nuovi item paralleli e problemi di trasferimento|Outcome primario|
+|Debriefing|Analisi aggregata dei dati della classe|Restituzione e didattica|
+
+Il tempo aggiuntivo può essere modesto, perché gran parte dell’attività sostituisce il formato ordinario degli esercizi anziché aggiungersi al programma.
+
+## Che cosa vedrebbe lo studente
+
+Dopo un numero sufficiente di giudizi, ciascuno riceverebbe un piccolo rapporto:
+
+- accuratezza;
+- Brier score;
+- curva di calibrazione;
+- frequenza degli errori ad alta confidenza;
+- capacità di discriminare tra risposte che conosce e risposte che non conosce;
+- cambiamento nel tempo.
+
+Non userei classifiche. Trasformerebbero la calibrazione in una gara e rischierebbero di rendere l’errore nuovamente identitario.
+
+Una restituzione possibile:
+
+> Quando hai attribuito circa il 70% di probabilità, le tue risposte sono risultate corrette nel 61% dei casi. La stima è ancora incerta perché si basa su pochi item. Il dato suggerisce una moderata sovrastima della tua accuratezza, non una caratteristica stabile della tua persona.
+
+Anche l’incertezza della valutazione personale può diventare materiale didattico: il grafico individuale è rumoroso; il modello gerarchico produce una stima con shrinkage; la classe vede concretamente perché non conviene sovrainterpretare un piccolo campione.
+
+---
+
+## Outcome della ricerca
+
+### Outcome primario
+
+Userei la **calibrazione probabilistica nel post-test**, su item standardizzati e non valutati.
+
+Il Brier score è facile da spiegare:
+
+\[ BS_{ij}=(p_{ij}-y_{ij})^2 \]
+
+dove \(p_{ij}\) è la probabilità assegnata dallo studente \(i\) all’item \(j\), e \(y_{ij}\) indica se la risposta è corretta.
+
+Il Brier score, però, non dovrebbe essere l’unica analisi: una persona può migliorarlo semplicemente comprimendo tutte le probabilità verso 0,5. Affiancherei quindi:
+
+- calibrazione;
+- discriminazione o resolution;
+- accuratezza;
+- distribuzione delle probabilità;
+- frequenza degli errori ad alta confidenza.
+
+### Outcome meccanicistico
+
+Nei problemi nei quali è possibile determinare il Bayes factor normativo, si può modellare l’aggiornamento in log-odds:
+
+\[ \Delta \operatorname{logit}(p_{ij}) = \lambda_i \log BF_j + \varepsilon_{ij} \]
+
+Con aggiornamento bayesiano ideale, \(\lambda=1\).
+
+- \(\lambda<1\): sotto-aggiornamento;
+- \(\lambda>1\): sovra-aggiornamento;
+- differenze tra evidenza confermante e disconfermante: possibile asimmetria nell’aggiornamento.
+
+La previsione teoricamente più interessante è che il decentramento epistemico porti \(\lambda\) più vicino a 1 soprattutto quando:
+
+- la credenza iniziale è forte;
+- l’evidenza è disconfermante;
+- lo studente ha appena commesso un errore ad alta confidenza.
+
+## Modello statistico
+
+Per la calibrazione eviterei di aggregare prematuramente i dati per studente. Un modello item-level potrebbe essere:
+
+\[ Y_{ijt} \sim \operatorname{Bernoulli} \left[ \operatorname{logit}^{-1} \left( \alpha_i+ \beta_i\operatorname{logit}(p_{ijt})+ u_j+ f(t)+ \gamma Z_i+ \eta Z_i\operatorname{logit}(p_{ijt}) \right) \right] \]
+
+dove:
+
+- \(\alpha_i\) rappresenta una tendenza individuale generale;
+- \(\beta_i\) rappresenta la calibrazione individuale;
+- \(u_j\) è l’effetto dell’item;
+- \(f(t)\) descrive il cambiamento nel tempo;
+- \(Z_i\) è la condizione sperimentale;
+- \(\eta\) descrive l’effetto del decentramento sulla relazione tra fiducia e correttezza.
+
+Il modello dovrebbe essere cross-classified per studenti e item, con modulo come livello o moderatore. Il gran numero di risposte non va confuso con il numero di unità indipendenti: 10.000 giudizi prodotti da 400 studenti non equivalgono a 10.000 partecipanti.
+
+Per la pianificazione farei una simulazione bayesiana con:
+
+- diversi tassi plausibili di consenso e abbandono;
+- correlazione intra-studente;
+- effetti casuali degli item;
+- un effetto minimo di interesse sul Brier score o sul parametro \(\lambda\);
+- prior scettiche centrate sullo zero.
+
+## Perché potrebbe diventare un buon articolo
+
+Il progetto avrebbe alcuni elementi editorialmente forti:
+
+- studio di campo in un corso autentico;
+- randomizzazione;
+- misure comportamentali, non soltanto questionari di gradimento;
+- due coorti numerose;
+- outcome preregistrato;
+- analisi gerarchica adeguata alla struttura dei dati;
+- replicazione interna;
+- intervento brevissimo e facilmente riproducibile;
+- possibilità di risultati informativi anche in caso di effetto nullo.
+
+La novità non sarebbe “insegnare Bayes migliora il pensiero”. Sarebbe più precisa:
+
+> **Un modo decentrato di formulare e ricevere feedback sulle proprie credenze migliora il trasferimento dell’epistemologia bayesiana alla calibrazione metacognitiva?**
+
+---
+
+# 2. Seconda proposta: **La classe come distribuzione di prior**
+
+Questa è meno personale, ma molto semplice da integrare nel corso e metodologicamente pulita.
+
+## Esperienza didattica
+
+Prima di mostrare i dati relativi a un problema, ogni studente indica il proprio prior.
+
+Sul monitor appare poi la distribuzione della classe:
+
+- studenti molto scettici;
+- studenti incerti;
+- studenti convinti;
+- eventuale multimodalità;
+- differenze tra moduli.
+
+Dopo la presentazione dell’evidenza, ciascuno indica il posterior.
+
+Lo studente vede immediatamente che:
+
+- un prior non è “il prior corretto”;
+- persone razionali possono partire da punti diversi;
+- la stessa evidenza può produrre posterior diversi;
+- l’accordo dipende sia dall’evidenza sia dalla convergenza dei prior;
+- una distribuzione di credenze può essere trattata gerarchicamente.
+
+## Esperimento
+
+Si randomizza il momento in cui lo studente vede la distribuzione delle risposte dei compagni.
+
+### Condizione privata-prima
+
+1. prior personale;
+2. evidenza;
+3. posterior personale;
+4. visualizzazione della distribuzione della classe.
+
+### Condizione sociale-prima
+
+1. prior personale;
+2. visualizzazione della distribuzione della classe;
+3. evidenza;
+4. posterior personale.
+
+La domanda è:
+
+> Quanto peso attribuiscono gli studenti all’informazione sociale, rispetto all’evidenza diagnostica?
+
+Si potrebbero studiare:
+
+- movimento verso la media o la mediana della classe;
+- peso dato alla distribuzione sociale;
+- dipendenza dalla propria incertezza iniziale;
+- influenza della dispersione o della multimodalità;
+- differenze tra informazione sociale concorde e discorde rispetto al proprio prior;
+- cambiamento durante il corso.
+
+## Punto forte
+
+È quasi totalmente sovrapponibile agli esercizi già presenti. Richiede poche informazioni personali e ha una bassa complessità etica.
+
+## Limite
+
+È meno legata alla vita dello studente. L’esperienza personale consiste soprattutto nello scoprire quanto il proprio giudizio sia influenzato dal gruppo.
+
+### Possibile titolo
+
+**When the Class Becomes a Prior: Social Information and Bayesian Belief Updating in Introductory Psychology Students**
+
+---
+
+# 3. Terza proposta: **Tre minuti prima di aggiornare**
+
+Questa è quella con il legame più diretto con la pratica contemplativa.
+
+## Esperienza
+
+Prima di alcuni quiz non valutati, gli studenti svolgono:
+
+- tre minuti di attenzione focalizzata al respiro o ai suoni;
+- oppure un’attività di controllo attiva, della stessa durata, per esempio osservare e classificare stimoli neutrali.
+
+Poi rispondono agli item e indicano la probabilità che ciascuna risposta sia corretta.
+
+Il punto non sarebbe verificare se la pratica aumenta il punteggio, ma se modifica:
+
+- calibrazione;
+- overconfidence;
+- discriminazione metacognitiva;
+- risposta agli errori;
+- latenza;
+- aggiornamento dopo feedback.
+
+Il disegno più naturale sarebbe crossover: ciascuno sperimenta entrambe le condizioni in ordine controbilanciato.
+
+## Domanda di ricerca
+
+> Una breve stabilizzazione dell’attenzione modifica la qualità del rapporto tra fiducia soggettiva e correttezza?
+
+## Perché è interessante
+
+Permetterebbe agli studenti di sperimentare direttamente una possibile relazione tra stato attentivo, fiducia e decisione.
+
+## Perché la considero più rischiosa
+
+Le aspettative sulla relazione tra mindfulness e metacognizione non sono ancora una base sicura su cui costruire un primo studio. Una recente ricerca preregistrata, con 31 giorni di training, non ha trovato effetti su fiducia, decisione o sensibilità metacognitiva in un compito di scelta intertemporale, con Bayes factor favorevoli al modello nullo. Il suo studio potrebbe naturalmente produrre risultati diversi, ma questo rende il progetto scientificamente aperto e meno prevedibile. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42777609/)
+
+Richiederebbe inoltre:
+
+- un controllo attivo credibile;
+- misure delle aspettative;
+- attenzione alle persone che trovano sgradevole focalizzarsi sul respiro;
+- un’alternativa basata sui suoni esterni;
+- una chiara distinzione tra esercizio attentivo e intervento clinico.
+
+Non lo combinerei con il primo progetto nel medesimo articolo. Un disegno con diario, feedback, decentramento e meditazione diventerebbe rapidamente difficile da interpretare.
+
+---
+
+# Confronto
+
+|Progetto|Significato personale|Integrazione nel corso|Chiarezza causale|Complessità etica|Probabilità di un articolo pulito|
+|---|---|---|---|---|---|
+|**Le credenze sono ipotesi**|Alta|Alta|Alta|Media|Più alta|
+|**La classe come distribuzione**|Media|Molto alta|Alta|Bassa|Alta|
+|**Tre minuti prima di aggiornare**|Media-alta|Alta|Media|Media|Più incerta|
+
+La mia scelta sarebbe il primo progetto, eventualmente incorporando un elemento del secondo nella restituzione collettiva.
+
+---
+
+# La combinazione che raccomanderei
+
+## Livello privato
+
+Ogni studente tiene un piccolo diario di previsioni personali. Il contenuto resta privato.
+
+## Livello didattico comune
+
+Negli esercizi e nei quiz già previsti, lo studente:
+
+- fornisce probabilità;
+- riceve evidenza;
+- aggiorna;
+- osserva la propria calibrazione.
+
+## Livello sperimentale
+
+Gli studenti sono randomizzati a feedback neutro oppure decentrato.
+
+## Livello di ricerca
+
+Si analizzano soltanto:
+
+- risposte a item standardizzati;
+- probabilità assegnate;
+- aggiornamenti;
+- tempi di risposta;
+- condizione sperimentale;
+- modulo;
+- eventualmente pochi indicatori demografici indispensabili.
+
+## Livello di restituzione
+
+A raccolta conclusa, la classe analizza i dati aggregati con gli strumenti del corso.
+
+Questo crea una circolarità molto efficace:
+
+> gli studenti producono dati sulla propria incertezza, imparano a modellarli e scoprono che anche la loro valutazione di sé è un problema di inferenza.
+
+---
+
+# Il punto etico è strutturale, non amministrativo
+
+Il Codice Etico AIP aggiornato nel 2025 menziona espressamente la relazione studente-docente come relazione asimmetrica. Richiede che attività didattica e ricerca siano chiaramente distinte, che si evitino forme anche indirette di coercizione, che rifiuto o ritiro non producano conseguenze sul curriculum e che, quando la partecipazione comporta un beneficio formativo, sia disponibile un beneficio equivalente per chi non partecipa. Prevede inoltre la valutazione del protocollo da parte del Comitato Etico Locale prima dell’avvio. [AiPass](https://aipass.org/wp-content/uploads/2025/07/Codice-Etico-approvato-ass.-16-05-2025.pdf)
+
+In pratica imposterei così la governance:
+
+1. **L’attività didattica è disponibile a tutti.** L’autorizzazione all’uso dei dati per la ricerca è separata.
+2. **Chi valuta gli studenti non gestisce il consenso.** Informativa e consenso sono raccolti da un collega o collaboratore che non partecipa alla valutazione.
+3. **Il docente resta cieco alla partecipazione fino alla registrazione dei voti.**
+4. **Nessun vantaggio di voto per chi consente.** Eventuali crediti o attività formative devono avere un’alternativa equivalente.
+5. **Le previsioni personali complete non entrano nel database.**
+6. **I voti d’esame non sono outcome del primo studio.**
+7. **Niente dati su salute mentale, religione, sessualità, politica o condizioni familiari.**
+8. **Per eventuali minorenni si applica una procedura specifica oppure, più semplicemente, si escludono i loro dati dalla ricerca pur lasciando disponibile l’attività didattica.**
+9. **Restituzione dei risultati alla classe**, in forma aggregata.
+10. **Analisi e ipotesi preregistrate prima dell’apertura del database.**
+
+Bisogna inoltre distinguere il consenso alla partecipazione dalla base giuridica per il trattamento dei dati. Le linee guida EDPB avvertono che uno squilibrio di potere può compromettere la libertà del consenso; perciò non farei affidamento automaticamente sul “consenso GDPR” come soluzione a tutto, ma definirei il trattamento insieme al DPO dell’Ateneo. [European Data Protection Board](https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202005_consent_en.pdf?exec=cyxgdpr_83654&ref=cyxgdpr_83654-cyxgdpr_83654-pmodal-cyxgdpr_83654-cyxgdpr_83654-pmodal-pmodal-CYPROcompIT-CYPROcompIT&utm_source=chatgpt.com)
+
+I dati longitudinali collegati da un codice casuale sono normalmente **pseudonimizzati, non anonimi**. I dati pseudonimizzati che possono essere ricollegati a una persona mediante informazioni aggiuntive restano dati personali ai sensi del GDPR. La chiave di collegamento dovrebbe quindi essere detenuta da una persona o struttura indipendente dal docente. [European Commission](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/application-gdpr_en?utm_source=chatgpt.com)
+
+Condividerei pubblicamente:
+
+- protocollo;
+- materiali;
+- codice di analisi;
+- dati simulati;
+- eventualmente dati realmente anonimizzati e sufficientemente aggregati.
+
+Non metterei automaticamente online i dati individuali pseudonimi dei cinquecento studenti.
+
+Il Codice AIP incoraggia la preregistrazione e il riconoscimento del contributo di studenti e studentesse che abbiano partecipato sostanzialmente alla progettazione, analisi o scrittura. Dopo la chiusura dei voti, si potrebbe costituire un piccolo gruppo volontario di studenti interessati ad accompagnare l’analisi e la redazione dell’articolo; chi contribuisse realmente dovrebbe ricevere il riconoscimento appropriato, inclusa eventualmente la coautorialità. [AiPass](https://aipass.org/wp-content/uploads/2025/07/Codice-Etico-approvato-ass.-16-05-2025.pdf)
+
+---
+
+# Una versione minima, realizzabile senza costruire una piattaforma complessa
+
+Il progetto può partire anche con strumenti ordinari del LMS:
+
+- baseline di 12 item;
+- quattro blocchi di esercizi da 8 item;
+- una scala 1–99 per la probabilità di correttezza;
+- randomizzazione automatica del testo di feedback;
+- post-test di 12–16 item paralleli;
+- un foglio personale non consegnato per le previsioni private;
+- report individuale prodotto alla fine;
+- analisi dei dati standardizzati dopo il consenso.
+
+Sono circa 40–60 giudizi probabilistici per studente, sufficienti per un’analisi di gruppo ricca e per una restituzione individuale prudente.
+
+Eviterei, nel primo articolo:
+
+- un lungo questionario su mindfulness e benessere;
+- voti d’esame come outcome;
+- un intero modulo sperimentale e l’altro di controllo;
+- testi liberi sulle esperienze personali;
+- numerosi outcome senza una gerarchia preregistrata;
+- una pratica meditativa aggiunta allo stesso protocollo.
+
+La storia scientifica più pulita sarebbe:
+
+> **Gli studenti non sono stati semplicemente interrogati su quanto apprezzassero l’inferenza bayesiana. È stato verificato se diventassero più capaci di rappresentare e revisionare la propria incertezza, e se trattare le credenze come modelli anziché come identità facilitasse questo processo.**
+
+Il primo passo concreto sarebbe fissare un solo outcome primario — suggerirei la calibrazione nel post-test — e trattare il parametro di aggiornamento \(\lambda\), gli errori ad alta confidenza e gli atteggiamenti epistemici come outcome secondari preregistrati.
